@@ -1,0 +1,271 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "74f8ef92687243f694a035232d8e1a07",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 16384,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "system_gpio_0_io_writeEnable",
+                    "width": 4,
+                    "probe_type": 1
+                },
+                {
+                    "name": "system_gpio_0_io_write",
+                    "width": 4,
+                    "probe_type": 1
+                },
+                {
+                    "name": "system_gpio_0_io_read",
+                    "width": 4,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "top_soc",
+                "ports": [
+                    {
+                        "name": "jtag_inst2_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst2_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst2_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst2_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst2_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst2_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst2_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst2_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst2_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst2_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst2_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst2_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "io_systemClk",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[0]",
+                        "net": "system_gpio_0_io_writeEnable[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[1]",
+                        "net": "system_gpio_0_io_writeEnable[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[2]",
+                        "net": "system_gpio_0_io_writeEnable[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[3]",
+                        "net": "system_gpio_0_io_writeEnable[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe1[0]",
+                        "net": "system_gpio_0_io_write[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe1[1]",
+                        "net": "system_gpio_0_io_write[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe1[2]",
+                        "net": "system_gpio_0_io_write[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe1[3]",
+                        "net": "system_gpio_0_io_write[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe2[0]",
+                        "net": "system_gpio_0_io_read[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe2[1]",
+                        "net": "system_gpio_0_io_read[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe2[2]",
+                        "net": "system_gpio_0_io_read[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe2[3]",
+                        "net": "system_gpio_0_io_read[3]",
+                        "path": []
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 16384,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "system_gpio_0_io_writeEnable",
+                    "width": 4,
+                    "clk_domain": "io_systemClk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 3,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "system_gpio_0_io_write",
+                    "width": 4,
+                    "clk_domain": "io_systemClk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 3,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "system_gpio_0_io_read",
+                    "width": 4,
+                    "clk_domain": "io_systemClk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 3,
+                    "net_idx_right": 0
+                }
+            ],
+            "top_module": "top_soc",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER2",
+            "input_pipeline": 1
+        }
+    }
+}

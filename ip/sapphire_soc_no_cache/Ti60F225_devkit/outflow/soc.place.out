@@ -1,0 +1,220 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2022.M.288 
+Compiled: Nov  6 2022.
+
+Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Titanium", Device "Ti60F225" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/soc.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.117378 seconds.
+	VDB Netlist Checker took 0.12 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 191.836 MB, end = 191.836 MB, delta = 0 MB
+VDB Netlist Checker resident set memory usage: begin = 70.684 MB, end = 70.684 MB, delta = 0 MB
+	VDB Netlist Checker peak resident set memory usage = 871.08 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.csv'.
+Successfully processed interface constraints file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.csv".
+Creating interface clock pin clk0.
+Creating interface clock pin io_memoryClk.
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/soc.vdb".
+Netlist pre-processing took 0.256289 seconds.
+	Netlist pre-processing took 0.25 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 176.468 MB, end = 207.796 MB, delta = 31.328 MB
+Netlist pre-processing resident set memory usage: begin = 55.088 MB, end = 87.028 MB, delta = 31.94 MB
+	Netlist pre-processing peak resident set memory usage = 871.08 MB
+***** Ending stage netlist pre-processing *****
+
+Load Global Network took 0.458295 seconds.
+	Load Global Network took 0.42 seconds (approximately) in total CPU time.
+Load Global Network virtual memory usage: begin = 207.796 MB, end = 354.24 MB, delta = 146.444 MB
+Load Global Network resident set memory usage: begin = 87.028 MB, end = 213.372 MB, delta = 126.344 MB
+	Load Global Network peak resident set memory usage = 871.08 MB
+Reading /media/manoj/5121/tool/efinix/efinity/2022.M/arch/./rr_pb_hier_mapping.xml
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.net_proto" took 0.015806 seconds
+Creating IO constraints file '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.io_place'
+Packing took 0.0560569 seconds.
+	Packing took 0.06 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 361.34 MB, end = 361.34 MB, delta = 0 MB
+Packing resident set memory usage: begin = 220.884 MB, end = 220.884 MB, delta = 0 MB
+	Packing peak resident set memory usage = 871.08 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.net_proto
+Read proto netlist for file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.net_proto" took 0.001707 seconds
+Setup net and block data structure took 0.391723 seconds
+Reading core interface constraints from '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.csv'.
+Successfully processed interface constraints file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.csv".
+WARNING(1): Counting 1 clocks with unassigned pad location as global clocks.
+Packed netlist loading took 3.39225 seconds.
+	Packed netlist loading took 3.34 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 361.34 MB, end = 697.908 MB, delta = 336.568 MB
+Packed netlist loading resident set memory usage: begin = 220.884 MB, end = 489.624 MB, delta = 268.74 MB
+	Packed netlist loading peak resident set memory usage = 871.08 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+Read router lookahead for device Ti60F225 from file /media/manoj/5121/tool/efinix/efinity/2022.M/arch/./lookahead/QX25_C4.lookahead.zst.
+
+Load Router Lookahead took 0.508692 seconds.
+	Load Router Lookahead took 0.23 seconds (approximately) in total CPU time.
+Load Router Lookahead virtual memory usage: begin = 697.908 MB, end = 943.62 MB, delta = 245.712 MB
+Load Router Lookahead resident set memory usage: begin = 489.624 MB, end = 735.612 MB, delta = 245.988 MB
+	Load Router Lookahead peak resident set memory usage = 956.836 MB
+
+SDC file '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/constraints.sdc' parsed successfully.
+2 clocks (including virtual clocks), 10 inputs and 14 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.csv'.
+Successfully processed interface constraints file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.csv".
+Writing IO placement constraints to '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.io'.
+
+Reading placement constraints from '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.io'.
+
+Reading placement constraints from '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.io_place'.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Found 6 synchronizers as follows: 
+	Synchronizer 0:  soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_payload_error~FF
+	Synchronizer 1:  soc_inst/u_EfxSapphireSoc/bufferCC_8/buffers_0_2~FF soc_inst/u_EfxSapphireSoc/bufferCC_8_io_dataOut~FF
+	Synchronizer 2:  soc_inst/u_EfxSapphireSoc/bufferCC_6/buffers_0_2~FF soc_inst/u_EfxSapphireSoc/bufferCC_6_io_dataOut~FF
+	Synchronizer 3:  soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/flowCCByToggle_1/inputArea_target_buffercc/i7_2
+	Synchronizer 4:  soc_inst/u_EfxSapphireSoc/bufferCC_7/buffers_0_2~FF soc_inst/u_EfxSapphireSoc/bufferCC_7_io_dataOut~FF
+	Synchronizer 5:  soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_valid~FF
+Create /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+NumRegions 1
+Starting Global Placer with 6 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1     1290080            7175         1.0%
+          2      708323            7175         2.0%
+          3      614413            6994         3.1%
+          4      508135            6807         5.8%
+          5      477746            6663        11.0%
+          6      376321            6257        21.4%
+          7      288059            6022        40.0%
+          8      255064            5846        55.0%
+          9      248241            5723        58.9%
+         10      244852            5634        62.3%
+         11      243200            5733        62.3%
+         12      239001            5654        64.0%
+         13      243669            5750        66.2%
+         14      244157            5854        67.0%
+         15      242547            5721        67.5%
+         16      239293            5856        68.4%
+         17      241891            5802        73.9%
+         18      235921            5655        73.9%
+         19      237228            5568        77.5%
+         20      235020            5524        77.5%
+         21      235873            5537        80.6%
+         22      230708            5562        80.6%
+         23      231919            5618        82.4%
+         24      231314            5570        82.4%
+         25      232312            5587        82.4%
+         26      228213            5589        82.4%
+         27      230113            5608        84.8%
+         28      228438            5568        84.8%
+         29      230661            5751        84.8%
+         30      228914            5725        84.8%
+         31      228096            5636        86.9%
+         32      229654            5750        86.9%
+         33      230033            5802        87.4%
+         34      229730            5727        88.2%
+         35      229451            5691        88.2%
+         36      229530            5572        90.2%
+         37      229862            5629        90.7%
+         38      230773            5557        90.7%
+         39      229291            5677        91.6%
+         40      228753            5569        93.0%
+         41      231118            5469        93.6%
+         42      230172            5566        94.1%
+         43      231822            5491        95.0%
+         44      223887            5458        95.0%
+         45      224049            5571        97.1%
+         46      223712            5438        98.2%
+         47      225257            5243        98.4%
+         48      226132            5517        98.6%
+         49      226607            5349        99.0%
+         50      227367            5182        99.0%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0      223712            4373        30.0
+          1      211153            4292        30.0
+          2      195682            4251        29.2
+          3      182018            4292        28.0
+          4      173477            4269        26.5
+          5      168397            4235        25.0
+          6      166323            4126        23.4
+          7      162770            4141        21.9
+          8      161345            4113        20.3
+          9      160113            3943        18.9
+         10      158038            4011        17.4
+         11      155854            3943        16.0
+         12      155127            4011        14.7
+         13      153637            3943        13.5
+         14      152378            4011        12.4
+         15      150615            3993        11.3
+         16      148943            3990        10.4
+         17      148187            3854         9.5
+         18      147432            3825         8.7
+         19      146395            3844         7.9
+         20      145013            3839         7.2
+         21      144357            3763         6.6
+         22      143798            3771         6.0
+         23      142738            3697         5.5
+         24      142268            3765         5.0
+         25      141352            3833         4.5
+         26      140903            3833         4.1
+         27      140873            3731         3.7
+         28      140503            3765         3.4
+         29      140126            3697         3.0
+         30      139906            3765         2.8
+         31      139515            3697         2.5
+         32      139254            3765         2.2
+Generate /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc_after_qp.qdelay
+Placement successful: 6125 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.323748 at 25,2
+Congestion-weighted HPWL per net: 15.6418
+
+Reading placement constraints from '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.qplace'.
+Finished Realigning Types (1467 blocks needed type change)
+Run checks after placement.
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.place'
+Placement took 14.747 seconds.
+	Placement took 38.91 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 943.62 MB, end = 2030.63 MB, delta = 1087.01 MB
+Placement resident set memory usage: begin = 735.612 MB, end = 1015.27 MB, delta = 279.656 MB
+	Placement peak resident set memory usage = 1025.35 MB
+***** Ending stage placement *****
+

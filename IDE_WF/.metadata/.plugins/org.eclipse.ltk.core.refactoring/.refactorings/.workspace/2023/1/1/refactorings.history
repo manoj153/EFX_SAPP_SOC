@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 22 resources" deleteContents="false" description="Delete 22 resources" element1="/apb3Demo" element10="/gpioDemo" element11="/i2cDemo" element12="/i2cSlaveDemo" element13="/memTest" element14="/nestedInterruptDemo" element15="/smpDemo" element16="/spiDemo" element17="/spiReadFlashDemo" element18="/spiWriteFlashDemo" element19="/uartEchoDemo" element2="/axi4Demo" element20="/uartInterruptDemo" element21="/userInterruptDemo" element22="/userTimerDemo" element3="/bootloader" element4="/compatibilityDemo" element5="/coremark" element6="/coreTimerInterruptDemo" element7="/customInstructionDemo" element8="/dhrystone" element9="/fpuDemo" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="22" stamp="1672729173833"/>
+</session>

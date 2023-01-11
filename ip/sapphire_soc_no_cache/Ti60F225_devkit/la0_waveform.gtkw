@@ -1,0 +1,14 @@
+[dumpfile] "/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/la0_waveform.vcd"
+[dumpfile_mtime] "Kha Jan 05 05:46:39 2023"
+[dumpfile_size] 311
+[savefile] "/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/la0_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 8192 24576 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.system_gpio_0_io_writeEnable[3:0]
+top.system_gpio_0_io_write[3:0]
+top.system_gpio_0_io_read[3:0]

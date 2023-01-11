@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="0.553207176">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.553207176" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="" id="0.553207176" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.553207176." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1158202296" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1158202296.380205677" name=""/>
+							<builder id="org.eclipse.cdt.build.core.settings.default.builder.567243920" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1724905670" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1539213079" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="org.eclipse.cdt.build.core.settings.holder.incpaths.1725577475" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//..//toolchain/riscv-none-embed/include"/>
+									<listOptionValue builtIn="false" value="/home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//..//toolchain/riscv-none-embed/include/sys"/>
+									<listOptionValue builtIn="false" value="/home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//..//toolchain/lib/gcc/riscv-none-embed/8.3.0/include"/>
+									<listOptionValue builtIn="false" value="/home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//..//toolchain/include"/>
+									<listOptionValue builtIn="false" value="/home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/bsp/..//bsp/efinix/EfxSapphireSoc/include"/>
+									<listOptionValue builtIn="false" value="/home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/bsp/..//bsp/efinix/EfxSapphireSoc/app"/>
+									<listOptionValue builtIn="false" value="/home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/bsp/..//software/standalone/driver"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1384228707" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.2128440627" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="org.eclipse.cdt.build.core.settings.holder.incpaths.39846949" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//..//toolchain/riscv-none-embed/include"/>
+									<listOptionValue builtIn="false" value="/home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//..//toolchain/riscv-none-embed/include/sys"/>
+									<listOptionValue builtIn="false" value="/home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//..//toolchain/lib/gcc/riscv-none-embed/8.3.0/include"/>
+									<listOptionValue builtIn="false" value="/home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//..//toolchain/include"/>
+									<listOptionValue builtIn="false" value="/home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/bsp/..//bsp/efinix/EfxSapphireSoc/include"/>
+									<listOptionValue builtIn="false" value="/home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/bsp/..//bsp/efinix/EfxSapphireSoc/app"/>
+									<listOptionValue builtIn="false" value="/home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/bsp/..//software/standalone/driver"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.414042960" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.252169014" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="org.eclipse.cdt.build.core.settings.holder.incpaths.1963331025" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//..//toolchain/riscv-none-embed/include"/>
+									<listOptionValue builtIn="false" value="/home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//..//toolchain/riscv-none-embed/include/sys"/>
+									<listOptionValue builtIn="false" value="/home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//..//toolchain/lib/gcc/riscv-none-embed/8.3.0/include"/>
+									<listOptionValue builtIn="false" value="/home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//..//toolchain/include"/>
+									<listOptionValue builtIn="false" value="/home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/bsp/..//bsp/efinix/EfxSapphireSoc/include"/>
+									<listOptionValue builtIn="false" value="/home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/bsp/..//bsp/efinix/EfxSapphireSoc/app"/>
+									<listOptionValue builtIn="false" value="/home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/bsp/..//software/standalone/driver"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="org.eclipse.cdt.build.core.settings.holder.symbols.1731126639" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="SYSTEM_UART_A_APB=SYSTEM_UART_0_IO_APB"/>
+									<listOptionValue builtIn="false" value="SYSTEM_GPIO_A_APB=SYSTEM_GPIO_0_IO_APB"/>
+									<listOptionValue builtIn="false" value="SYSTEM_I2C_A_APB=SYSTEM_I2C_0_IO_APB"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.743491183" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="spiReadFlashDemo.null.659661934" name="spiReadFlashDemo"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="0.553207176">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="0.1101956322">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

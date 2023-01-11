@@ -1,0 +1,31 @@
+
+Efinix FPGA Bitstream Generator.
+Version: 2022.M.288 
+Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+
+Compiled: Nov  6 2022.
+
+Using source file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.lbf"
+Generating HEX programming file for device "Ti60F225", family "Titanium"
+Using periphery source file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.lpf"
+Generating bit file: "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.bit"
+HEX Generation Options Summary:
+	Listing options specified to bitstream generation:
+	bitstream_compression                    = on
+	oscillator_clock_divider                 = DIV8
+	enable_external_master_clock             = off
+	spi_low_power_mode                       = on
+	active_capture_clk_edge                  = posedge
+	enable_remote_update                     = off
+	release_tri_then_reset                   = on
+	enable_seu_crc_check                     = off
+	seu_mode                                 = automatic
+	seu_wait_interval                        = 0xFFFFFF
+	jtag_usercode                            = 0xFFFFFFFF
+	io_weak_pullup                           = on
+Finished generating "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.hex"
+Efinity Bitstream Generator took 3.40401 seconds.
+	Efinity Bitstream Generator took 3.3 seconds (approximately) in total CPU time.
+Efinity Bitstream Generator virtual memory usage: begin = 57.684 MB, end = 173.028 MB, delta = 115.344 MB
+Efinity Bitstream Generator resident set memory usage: begin = 9.364 MB, end = 128.724 MB, delta = 119.36 MB
+	Efinity Bitstream Generator peak resident set memory usage = 871.296 MB

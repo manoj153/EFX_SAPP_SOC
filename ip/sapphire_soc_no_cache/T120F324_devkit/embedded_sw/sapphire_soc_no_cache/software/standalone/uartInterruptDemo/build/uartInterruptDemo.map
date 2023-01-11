@@ -1,0 +1,298 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+                              build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/start.o (__libc_init_array)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .group         0x0000000000000000        0xc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x00000000f9000000 0x0000000000006000 axwl !r
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+LOAD build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/start.o
+LOAD build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/trap.o
+LOAD /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a
+LOAD /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32/libgcc.a
+                0x0000000000000c00                __stack_size = DEFINED (__stack_size)?__stack_size:0xc00
+
+.init           0x00000000f9000000       0x60
+ *(SORT_NONE(.init))
+ .init          0x00000000f9000000       0x60 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/start.o
+                0x00000000f9000000                _start
+                0x00000000f900005c                _init
+
+.text           0x00000000f9000060      0x868
+ *(.text.Proc_1)
+ *(.text.Proc_2)
+ *(.text.Proc_3)
+ *(.text.Proc_4)
+ *(.text.Proc_5)
+ *(.text.Proc_6)
+ *(.text.Proc_7)
+ *(.text.Proc_8)
+ *(.text.Func_1)
+ *(.text.Func_2)
+ *(.text.Func_3)
+ *(.text.strcpy)
+ *libc.a:*(.text .text.*)
+ .text          0x00000000f9000060        0x0 /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x00000000f9000060       0x94 /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+                0x00000000f9000060                __libc_init_array
+ *(.text.main)
+ *(.text.unlikely .text.unlikely.*)
+ *(.text.startup .text.startup.*)
+ *(.text .text.*)
+ .text          0x00000000f90000f4      0x744 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+                0x00000000f90005f4                init
+                0x00000000f9000690                UartInterrupt_Sub
+                0x00000000f900074c                crash
+                0x00000000f9000764                UartInterrupt
+                0x00000000f90007b8                trap
+                0x00000000f90007ec                main
+ .text          0x00000000f9000838        0x0 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/start.o
+ .text          0x00000000f9000838       0x90 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/trap.o
+                0x00000000f9000838                trap_entry
+ *(.gnu.linkonce.t.*)
+ *(.note.gnu.build-id)
+
+.rela.dyn       0x00000000f90008c8        0x0
+ .rela.init     0x00000000f90008c8        0x0 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .rela.text.__libc_init_array
+                0x00000000f90008c8        0x0 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+
+.fini
+ *(SORT_NONE(.fini))
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x00000000f90008c8                . = ALIGN (0x4)
+
+.preinit_array  0x00000000f90008c8        0x0
+                0x00000000f90008c8                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x00000000f90008c8                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00000000f90008c8        0x0
+                0x00000000f90008c8                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                0x00000000f90008c8                PROVIDE (__init_array_end = .)
+
+.fini_array     0x00000000f90008c8        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.lalign         0x00000000f90008c8        0x0
+                0x00000000f90008c8                . = ALIGN (0x4)
+                0x00000000f90008c8                PROVIDE (_data_lma = .)
+
+.dalign         0x00000000f90008c8        0x0
+                0x00000000f90008c8                . = ALIGN (0x4)
+                0x00000000f90008c8                PROVIDE (_data = .)
+
+.data           0x00000000f90008c8      0x142
+ *(.rdata)
+ *(.rodata .rodata.*)
+ .rodata.str1.4
+                0x00000000f90008c8      0x134 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+                                        0x131 (size before relaxing)
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ .data          0x00000000f90009fc        0x0 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .data          0x00000000f90009fc        0x0 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/start.o
+ .data          0x00000000f90009fc        0x0 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/trap.o
+ .data          0x00000000f90009fc        0x0 /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+ *(.gnu.linkonce.d.*)
+                0x00000000f9000a00                . = ALIGN (0x8)
+ *fill*         0x00000000f90009fc        0x4 
+                0x00000000f90011f0                PROVIDE (__global_pointer$ = (. + 0x7f0))
+ *(.sdata .sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x00000000f9000a00                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+                0x00000000f9000a0a                . = (. + 0xa)
+ *fill*         0x00000000f9000a00        0xa 
+                0x00000000f9000a0c                . = ALIGN (0x4)
+                0x00000000f9000a0c                PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                [!provide]                        PROVIDE (_fbss = .)
+                0x00000000f9000a0c                PROVIDE (__bss_start = .)
+
+.bss            0x00000000f9000a0a        0x2
+ *(.sbss*)
+ *(.gnu.linkonce.sb.*)
+ *(.bss .bss.*)
+ .bss           0x00000000f9000a0a        0x0 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .bss           0x00000000f9000a0a        0x0 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/start.o
+ .bss           0x00000000f9000a0a        0x0 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/trap.o
+ .bss           0x00000000f9000a0a        0x0 /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x00000000f9000a0c                . = ALIGN (0x4)
+ *fill*         0x00000000f9000a0a        0x2 
+                0x00000000f9000a10                . = ALIGN (0x8)
+                0x00000000f9000a10                PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x00000000f9000a10      0xc00
+                [!provide]                        PROVIDE (_heap_end = .)
+                0x0000000000000c00                . = __stack_size
+ *fill*         0x00000000f9000a10      0xc00 
+                0x00000000f9001610                PROVIDE (_sp = .)
+                0x00000000f9001610                __freertos_irq_stack_top = .
+LOAD /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libm.a
+LOAD /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32/libgcc.a
+START GROUP
+LOAD /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32/libgcc.a
+LOAD /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libg.a
+LOAD /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a
+END GROUP
+LOAD /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32/libgcc.a
+START GROUP
+LOAD /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32/libgcc.a
+LOAD /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a
+LOAD /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libnosys.a
+END GROUP
+OUTPUT(build/uartInterruptDemo.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x171a
+ .debug_info    0x0000000000000000     0x16ce build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_info    0x00000000000016ce       0x26 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/start.o
+ .debug_info    0x00000000000016f4       0x26 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/trap.o
+
+.debug_abbrev   0x0000000000000000      0x3ea
+ .debug_abbrev  0x0000000000000000      0x3c2 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_abbrev  0x00000000000003c2       0x14 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/start.o
+ .debug_abbrev  0x00000000000003d6       0x14 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/trap.o
+
+.debug_loc      0x0000000000000000      0x74a
+ .debug_loc     0x0000000000000000      0x74a build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+
+.debug_aranges  0x0000000000000000       0x60
+ .debug_aranges
+                0x0000000000000000       0x20 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_aranges
+                0x0000000000000020       0x20 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/start.o
+ .debug_aranges
+                0x0000000000000040       0x20 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/trap.o
+
+.debug_macro    0x0000000000000000     0x1cff
+ .debug_macro   0x0000000000000000      0x1c5 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x00000000000001c5      0x760 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000000925       0x22 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000000947       0x8e build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x00000000000009d5       0x51 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000000a26      0x103 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000000b29       0x6a build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000000b93      0x1df build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000000d72       0xc4 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000000e36      0x13c build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000000f72       0x10 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000000f82       0x2e build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000000fb0       0x16 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000000fc6       0x1c build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000000fe2       0xac build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x000000000000108e       0x58 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x00000000000010e6       0x19 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x00000000000010ff       0x52 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000001151       0x34 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000001185       0x34 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x00000000000011b9       0x16 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x00000000000011cf      0x10e build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x00000000000012dd       0x8d build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x000000000000136a       0x16 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000001380       0x43 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x00000000000013c3       0x34 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x00000000000013f7       0x10 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000001407       0x52 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000001459      0x182 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x00000000000015db      0x339 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000001914       0x16 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x000000000000192a       0x29 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000001953      0x1a9 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000001afc       0x16 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000001b12       0x35 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_macro   0x0000000000001b47      0x1b8 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+
+.debug_line     0x0000000000000000     0x1089
+ .debug_line    0x0000000000000000      0xebe build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_line    0x0000000000000ebe       0xba build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/start.o
+ .debug_line    0x0000000000000f78      0x111 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/trap.o
+
+.debug_str      0x0000000000000000     0x86ce
+ .debug_str     0x0000000000000000     0x869f build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+                                       0x898f (size before relaxing)
+ .debug_str     0x000000000000869f       0x1e build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/start.o
+                                         0x8d (size before relaxing)
+ .debug_str     0x00000000000086bd       0x11 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/common/trap.o
+                                         0x8c (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+                                         0x34 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x308
+ .debug_frame   0x0000000000000000      0x2cc build//home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/software/standalone/uartInterruptDemo/src/main.o
+ .debug_frame   0x00000000000002cc       0x3c /home/manoj/efinity/efinity-riscv-ide-2022.2.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a(lib_a-init.o)

@@ -1,0 +1,392 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 09, 2023 13:00:53
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter '**' becomes localparam in '**' with formal parameter declaration list (VERI-1199) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/hbram_top.encrypted.v:0)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:1105)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc' does not have a driver (VDB-1002) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:8143)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13692)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13693)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:14447)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:14448)
+[EFX-0011 VERI-WARNING] input port 'jtagCtrl_update' remains unconnected for this instance (VDB-1053) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0256 WARNING] The primary output port 'memoryCheckerPass' wire 'memoryCheckerPass' is not driven.
+[EFX-0256 WARNING] The primary output port 'memoryCheckerPass' wire 'memoryCheckerPass' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : PADDR[15]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[14]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[13]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[12]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[11]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[10]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[9]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[8]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[7]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[6]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[5]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[4]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[31]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[30]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[29]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[28]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[27]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[26]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[25]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[24]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0266 WARNING] Module Instance 'IBusSimplePlugin_rspJoin_rspBuffer_c' input pin tied to constant (io_flush=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:8143)
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_0_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_context[0]=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'tx' input pin tied to constant (io_cts=0).
+[EFX-0266 WARNING] Module Instance 'bridge_write_streamUnbuffered_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'uartCtrl_1_io_read_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'mapping_cmdLogic_streamUnbuffered_queueWithAvailability' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'ctrl_io_rsp_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'bufferCC_6' input pin tied to constant (io_dataIn=0).
+[EFX-0266 WARNING] Module Instance 'bufferCC_7' input pin tied to constant (io_dataIn=0).
+[EFX-0266 WARNING] Module Instance 'bufferCC_8' input pin tied to constant (io_dataIn=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[7]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[8]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[9]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[10]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[11]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[12]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[13]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[14]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[15]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[16]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[17]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[18]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[19]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[20]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[21]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[22]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[23]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[24]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[25]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[26]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[27]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[28]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[29]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[30]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[31]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[3]=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.jtagCtrl_update'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.jtagCtrl_reset'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.system_spi_0_io_data_2_read'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.system_spi_0_io_data_3_read'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'memoryCheckerPass'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:41)
+[EFX-0655 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13452)
+[EFX-0655 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13452)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 09, 2023 14:20:17
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter '**' becomes localparam in '**' with formal parameter declaration list (VERI-1199) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/hbram_top.encrypted.v:0)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:1105)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc' does not have a driver (VDB-1002) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:8143)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13692)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13693)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:14447)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:14448)
+[EFX-0011 VERI-WARNING] input port 'jtagCtrl_update' remains unconnected for this instance (VDB-1053) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0256 WARNING] The primary output port 'memoryCheckerPass' wire 'memoryCheckerPass' is not driven.
+[EFX-0256 WARNING] The primary output port 'memoryCheckerPass' wire 'memoryCheckerPass' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : PADDR[15]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[14]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[13]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[12]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[11]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[10]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[9]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[8]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[7]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[6]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[5]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : PADDR[4]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:31)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[31]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[30]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[29]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[28]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[27]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[26]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[25]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0200 WARNING] Removing redundant signal : byteIndex[24]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:49)
+[EFX-0266 WARNING] Module Instance 'IBusSimplePlugin_rspJoin_rspBuffer_c' input pin tied to constant (io_flush=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:8143)
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_0_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_context[0]=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'tx' input pin tied to constant (io_cts=0).
+[EFX-0266 WARNING] Module Instance 'bridge_write_streamUnbuffered_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'uartCtrl_1_io_read_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'mapping_cmdLogic_streamUnbuffered_queueWithAvailability' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'ctrl_io_rsp_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'bufferCC_6' input pin tied to constant (io_dataIn=0).
+[EFX-0266 WARNING] Module Instance 'bufferCC_7' input pin tied to constant (io_dataIn=0).
+[EFX-0266 WARNING] Module Instance 'bufferCC_8' input pin tied to constant (io_dataIn=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[7]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[8]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[9]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[10]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[11]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[12]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[13]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[14]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[15]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[16]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[17]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[18]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[19]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[20]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[21]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[22]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[23]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[24]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[25]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[26]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[27]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[28]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[29]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[30]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[31]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[3]=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.jtagCtrl_update'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.jtagCtrl_reset'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.system_spi_0_io_data_2_read'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.system_spi_0_io_data_3_read'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'memoryCheckerPass'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:41)
+[EFX-0655 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13452)
+[EFX-0655 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13452)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 09, 2023 14:39:17
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter '**' becomes localparam in '**' with formal parameter declaration list (VERI-1199) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/hbram_top.encrypted.v:0)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:1105)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc' does not have a driver (VDB-1002) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:8143)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13692)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13693)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:14447)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:14448)
+[EFX-0011 VERI-WARNING] input port 'jtagCtrl_update' remains unconnected for this instance (VDB-1053) (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0256 WARNING] The primary output port 'memoryCheckerPass' wire 'memoryCheckerPass' is not driven.
+[EFX-0256 WARNING] The primary output port 'memoryCheckerPass' wire 'memoryCheckerPass' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[31]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[30]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[29]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[28]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[27]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[26]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[25]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[24]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[23]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[22]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[21]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[20]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[19]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[18]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[17]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[16]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[15]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[14]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[13]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[12]. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0266 WARNING] Module Instance 'IBusSimplePlugin_rspJoin_rspBuffer_c' input pin tied to constant (io_flush=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:8143)
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_0_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_context[0]=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'tx' input pin tied to constant (io_cts=0).
+[EFX-0266 WARNING] Module Instance 'bridge_write_streamUnbuffered_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'uartCtrl_1_io_read_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'mapping_cmdLogic_streamUnbuffered_queueWithAvailability' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'ctrl_io_rsp_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'bufferCC_6' input pin tied to constant (io_dataIn=0).
+[EFX-0266 WARNING] Module Instance 'bufferCC_7' input pin tied to constant (io_dataIn=0).
+[EFX-0266 WARNING] Module Instance 'bufferCC_8' input pin tied to constant (io_dataIn=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[7]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[8]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[9]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[10]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[11]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[12]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[13]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[14]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[15]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[16]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[17]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[18]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[19]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[20]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[21]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[22]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[23]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[24]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[25]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[26]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[27]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[28]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[29]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[30]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[31]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[3]=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.jtagCtrl_update'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.jtagCtrl_reset'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.system_spi_0_io_data_2_read'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.system_spi_0_io_data_3_read'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'memoryCheckerPass'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:41)
+[EFX-0655 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13452)
+[EFX-0655 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram'. (/home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13452)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 10, 2023 18:11:31
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter '**' becomes localparam in '**' with formal parameter declaration list (VERI-1199) (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/hbram_top.encrypted.v:0)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:1105)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:631)
+[EFX-0011 VERI-WARNING] net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc' does not have a driver (VDB-1002) (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:8143)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13692)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13693)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:14447)
+[EFX-0011 VERI-WARNING] system function call 'urandom' is not supported (VERI-1141) (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:14448)
+[EFX-0011 VERI-WARNING] input port 'jtagCtrl_update' remains unconnected for this instance (VDB-1053) (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0256 WARNING] The primary output port 'memoryCheckerPass' wire 'memoryCheckerPass' is not driven.
+[EFX-0256 WARNING] The primary output port 'memoryCheckerPass' wire 'memoryCheckerPass' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[31]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[30]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[29]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[28]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[27]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[26]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[25]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[24]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[23]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[22]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[21]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[20]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[19]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[18]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[17]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[16]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[15]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[14]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[13]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[12]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0266 WARNING] Module Instance 'IBusSimplePlugin_rspJoin_rspBuffer_c' input pin tied to constant (io_flush=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:8143)
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_0_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_source[0]=0).
+[EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_context[0]=0).
+[EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'tx' input pin tied to constant (io_cts=0).
+[EFX-0266 WARNING] Module Instance 'bridge_write_streamUnbuffered_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'uartCtrl_1_io_read_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'mapping_cmdLogic_streamUnbuffered_queueWithAvailability' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'ctrl_io_rsp_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0266 WARNING] Module Instance 'bufferCC_6' input pin tied to constant (io_dataIn=0).
+[EFX-0266 WARNING] Module Instance 'bufferCC_7' input pin tied to constant (io_dataIn=0).
+[EFX-0266 WARNING] Module Instance 'bufferCC_8' input pin tied to constant (io_dataIn=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[3]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[4]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[5]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[6]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[7]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[8]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[9]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[10]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[11]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[12]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[13]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[14]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[15]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[16]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[17]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[18]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[19]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[20]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[21]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[22]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[23]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[24]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[25]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[26]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[27]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[28]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[29]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[30]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_data[31]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[0]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[1]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[2]=0).
+[EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[3]=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.jtagCtrl_update'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.jtagCtrl_reset'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.system_spi_0_io_data_2_read'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.system_spi_0_io_data_3_read'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'memoryCheckerPass'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:41)
+[EFX-0655 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13452)
+[EFX-0655 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13452)

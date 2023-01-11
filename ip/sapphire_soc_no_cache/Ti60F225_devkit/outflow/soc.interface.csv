@@ -1,0 +1,54 @@
+
+# Efinity Interface Configuration
+# Version: 2022.M.288
+# Date: 2023-01-10 18:11
+
+# Copyright (C) 2017 - 2022 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+clkout, 0, 304, -1, clk0
+clkout, 200, 323, -1, clk0
+clkout, 201, 323, -1, io_memoryClk
+clkout, 0, 30, -1, io_systemClk
+clkout, 0, 31, -1, io_systemClk
+clkout, 0, 59, -1, io_systemClk
+clkout, 0, 60, -1, io_systemClk
+clkout, 0, 61, -1, io_systemClk
+clkout, 0, 62, -1, io_systemClk
+required output, 0, 302, 2, __bypass__, baseClk_pll_rstn
+input, 219, 111, 3, __bypass__, io_asyncResetn
+input, 0, 24, 3, __bypass__, jtag_inst1_CAPTURE
+input, 0, 20, 1, __bypass__, jtag_inst1_SEL
+input, 0, 23, 3, __bypass__, jtag_inst1_SHIFT
+input, 0, 22, 1, __bypass__, jtag_inst1_TCK
+input, 0, 21, 1, __bypass__, jtag_inst1_TDI
+output, 0, 23, 0, __bypass__, jtag_inst1_TDO
+output, 219, 148, 2, __bypass__, memoryCheckerPass
+optional input, 0, 296, 3, __bypass__, my_pll_pin
+input, 219, 112, 1, __bypass__, system_gpio_0_io_read[0]
+input, 219, 129, 3, __bypass__, system_gpio_0_io_read[1]
+input, 219, 153, 1, __bypass__, system_gpio_0_io_read[2]
+input, 219, 141, 3, __bypass__, system_gpio_0_io_read[3]
+output, 219, 110, 0, __bypass__, system_gpio_0_io_write[0]
+output, 219, 127, 2, __bypass__, system_gpio_0_io_write[1]
+output, 219, 151, 0, __bypass__, system_gpio_0_io_write[2]
+output, 219, 139, 2, __bypass__, system_gpio_0_io_write[3]
+output, 219, 111, 0, __bypass__, system_gpio_0_io_writeEnable[0]
+output, 219, 128, 2, __bypass__, system_gpio_0_io_writeEnable[1]
+output, 219, 152, 0, __bypass__, system_gpio_0_io_writeEnable[2]
+output, 219, 140, 2, __bypass__, system_gpio_0_io_writeEnable[3]
+input, 0, 64, 3, __bypass__, system_spi_0_io_data_0_read
+output, 0, 60, 0, __bypass__, system_spi_0_io_data_0_write
+output, 0, 63, 0, __bypass__, system_spi_0_io_data_0_writeEnable
+input, 0, 65, 1, __bypass__, system_spi_0_io_data_1_read
+output, 0, 62, 2, __bypass__, system_spi_0_io_data_1_write
+output, 0, 63, 2, __bypass__, system_spi_0_io_data_1_writeEnable
+output, 0, 32, 2, __bypass__, system_spi_0_io_sclk_write
+output, 0, 30, 0, __bypass__, system_spi_0_io_ss
+input, 0, 3, 3, __bypass__, system_uart_0_io_rxd
+output, 0, 5, 2, __bypass__, system_uart_0_io_txd
+input, 219, 312, 1, __bypass__, systemClk_locked
+required output, 219, 302, 2, __bypass__, systemClk_rstn
+input, 0, 162, 1, __bypass__, ~clk0
+input, 219, 162, 1, __bypass__, ~io_memoryClk
+input, 219, 159, 1, __bypass__, ~io_systemClk

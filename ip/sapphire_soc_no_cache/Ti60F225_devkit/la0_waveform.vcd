@@ -1,0 +1,19 @@
+#0 $dumpon
+$date today $end
+$timescale 1 ns $end
+$scope module top $end
+$var wire 4 0 system_gpio_0_io_writeEnable $end
+$var wire 4 1 system_gpio_0_io_write $end
+$var wire 4 2 system_gpio_0_io_read $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0000 0
+b0000 1
+b0001 2
+$end
+#16383
+b0000 0
+b0000 1
+b0001 2

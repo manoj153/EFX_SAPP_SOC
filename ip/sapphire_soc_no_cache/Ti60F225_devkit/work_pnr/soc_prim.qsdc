@@ -1,0 +1,126 @@
+clock {
+  name: "io_systemClk"
+  period: 10000
+  target_pin {
+    cell: "io_systemClk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "jtag_inst1_TCK"
+  period: 100000
+  target_pin {
+    cell: "jtag_inst1_TCK"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+  input_delay {
+    pin {
+      cell: "jtag_inst1_CAPTURE"
+      port: "INPAD"
+    }
+    arrival: 280
+    analysis: MAX
+    ref_clock_edge: FALLING
+  }
+  input_delay {
+    pin {
+      cell: "jtag_inst1_CAPTURE"
+      port: "INPAD"
+    }
+    arrival: 187
+    analysis: MIN
+    ref_clock_edge: FALLING
+  }
+  input_delay {
+    pin {
+      cell: "jtag_inst1_SEL"
+      port: "INPAD"
+    }
+    arrival: 243
+    analysis: MAX
+    ref_clock_edge: FALLING
+  }
+  input_delay {
+    pin {
+      cell: "jtag_inst1_SEL"
+      port: "INPAD"
+    }
+    arrival: 162
+    analysis: MIN
+    ref_clock_edge: FALLING
+  }
+  input_delay {
+    pin {
+      cell: "jtag_inst1_SHIFT"
+      port: "INPAD"
+    }
+    arrival: 337
+    analysis: MAX
+    ref_clock_edge: FALLING
+  }
+  input_delay {
+    pin {
+      cell: "jtag_inst1_SHIFT"
+      port: "INPAD"
+    }
+    arrival: 224
+    analysis: MIN
+    ref_clock_edge: FALLING
+  }
+  output_delay {
+    pin {
+      cell: "jtag_inst1_TDO"
+      port: "OUTPAD"
+    }
+    setup: 117
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "jtag_inst1_TDO"
+      port: "OUTPAD"
+    }
+    setup: 75
+    analysis: MIN
+    ref_clock_edge: RISING
+  }
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "io_systemClk"
+  }
+  to {
+    clock: "jtag_inst1_TCK"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "jtag_inst1_TCK"
+  }
+  to {
+    clock: "io_systemClk"
+  }
+  analysis: BOTH
+}

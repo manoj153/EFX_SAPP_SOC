@@ -1,0 +1,8 @@
+**** Efinity Programming Tool Generation Report *****
+Time: 2023-01-09 13:35
+
+Generated FPGA Soc Image output file: /home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/combined_hex_led_2.hex
+Flash Address  Length      Input Image File
+0x00000000     0x000b0069  /home/manoj/Documents/works/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.hex
+0x00380000     0x0000482c  /home/manoj/Documents/flash_bin/zephyr_led_2.bin
+

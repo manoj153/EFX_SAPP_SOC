@@ -1,0 +1,282 @@
+!SESSION 2022-12-23 16:29:49.784 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -clearPersistedState
+Command-line arguments:  -data /home/manoj/Documents/works/efinity_1/IDE_WF -os linux -ws gtk -arch x86_64 -clearPersistedState
+
+!ENTRY org.eclipse.ui 4 4 2022-12-23 16:29:54.062
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:46.208
+!MESSAGE Indexed 'nestedInterruptDemo' (1 sources, 0 headers) in 0.53 sec: 2 declarations; 4 references; 7 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:47.296
+!MESSAGE Indexed 'uartInterruptDemo' (1 sources, 43 headers) in 1.09 sec: 1,447 declarations; 2,091 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:47.679
+!MESSAGE Indexed 'compatibilityDemo' (1 sources, 45 headers) in 0.379 sec: 1,477 declarations; 2,144 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:48.152
+!MESSAGE Indexed 'spiReadFlashDemo' (1 sources, 43 headers) in 0.47 sec: 1,442 declarations; 2,089 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:48.384
+!MESSAGE Indexed 'i2cDemo' (1 sources, 43 headers) in 0.227 sec: 1,478 declarations; 2,110 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:48.930
+!MESSAGE Indexed 'dhrystone' (3 sources, 63 headers) in 0.538 sec: 2,374 declarations; 3,473 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:49.290
+!MESSAGE Indexed 'spiWriteFlashDemo' (1 sources, 58 headers) in 0.358 sec: 2,270 declarations; 3,016 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:49.580
+!MESSAGE Indexed 'i2cSlaveDemo' (1 sources, 45 headers) in 0.287 sec: 1,509 declarations; 2,181 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:49.732
+!MESSAGE Indexed 'memTest' (1 sources, 41 headers) in 0.148 sec: 1,401 declarations; 1,913 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:49.979
+!MESSAGE Indexed 'fpuDemo' (1 sources, 42 headers) in 0.243 sec: 1,412 declarations; 1,988 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:50.218
+!MESSAGE Indexed 'userInterruptDemo' (1 sources, 43 headers) in 0.233 sec: 1,445 declarations; 2,036 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:50.419
+!MESSAGE Indexed 'uartEchoDemo' (1 sources, 41 headers) in 0.197 sec: 1,400 declarations; 1,905 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:50.641
+!MESSAGE Indexed 'customInstructionDemo' (1 sources, 42 headers) in 0.218 sec: 1,425 declarations; 1,940 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:50.879
+!MESSAGE Indexed 'gpioDemo' (1 sources, 44 headers) in 0.232 sec: 1,470 declarations; 2,110 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:51.054
+!MESSAGE Indexed 'spiDemo' (1 sources, 43 headers) in 0.172 sec: 1,441 declarations; 2,102 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:51.241
+!MESSAGE Indexed 'smpDemo' (1 sources, 44 headers) in 0.185 sec: 1,440 declarations; 2,011 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:51.428
+!MESSAGE Indexed 'userTimerDemo' (1 sources, 46 headers) in 0.184 sec: 1,466 declarations; 2,085 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:51.643
+!MESSAGE Indexed 'axi4Demo' (1 sources, 43 headers) in 0.212 sec: 1,450 declarations; 2,057 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:52.117
+!MESSAGE Indexed 'coremark' (8 sources, 44 headers) in 0.47 sec: 2,010 declarations; 4,622 references; 0 unresolved inclusions; 5 syntax errors; 1 unresolved names (0.015%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:52.247
+!MESSAGE Indexed 'apb3Demo' (1 sources, 42 headers) in 0.128 sec: 1,416 declarations; 1,929 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:52.483
+!MESSAGE Indexed 'coreTimerInterruptDemo' (1 sources, 44 headers) in 0.234 sec: 1,474 declarations; 2,074 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-23 16:30:52.639
+!MESSAGE Indexed 'bootloader' (1 sources, 45 headers) in 0.153 sec: 1,524 declarations; 2,325 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2022-12-23 16:31:33.357
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg -f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2022-12-23 16:31:34.521
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-23 16:31:52.748
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@2237c469): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 The group name "CSR" is already in use' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2022-12-23 16:31:52.749
+!MESSAGE The group name "CSR" is already in use
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-23 16:31:52.749
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@3fa2a4ca): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 The group name "General Purpose Registers" is already in use' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2022-12-23 16:31:52.749
+!MESSAGE The group name "General Purpose Registers" is already in use
+!SESSION 2022-12-28 14:54:17.415 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -clearPersistedState
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -clearPersistedState
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-12-28 14:54:27.523
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2022-12-28 14:54:31.704
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.embedcdt.packs.core 1 1 2022-12-28 14:55:17.819
+!MESSAGE File .repos.xml does not exist, using defaults.
+
+!ENTRY org.eclipse.ui 2 2 2022-12-28 14:56:26.724
+!MESSAGE Invalid preference category path: org.eclipse.ease.preferences.global (bundle: org.eclipse.ease.lang.python.jython, page: org.eclipse.ease.lang.python.jython.libraryPrefPage)
+!SESSION 2023-01-03 14:58:40.784 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -clearPersistedState
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -clearPersistedState
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-01-03 14:58:57.730
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2023-01-03 14:59:03.657
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:34.489
+!MESSAGE Indexed 'uartInterruptDemo' (1 sources, 0 headers) in 1.53 sec: 17 declarations; 53 references; 5 unresolved inclusions; 0 syntax errors; 49 unresolved names (41%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:37.176
+!MESSAGE Indexed 'nestedInterruptDemo' (1 sources, 46 headers) in 2.67 sec: 1,445 declarations; 2,013 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:38.024
+!MESSAGE Indexed 'compatibilityDemo' (1 sources, 45 headers) in 0.839 sec: 1,477 declarations; 2,144 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:38.563
+!MESSAGE Indexed 'spiReadFlashDemo' (1 sources, 43 headers) in 0.532 sec: 1,442 declarations; 2,089 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:38.924
+!MESSAGE Indexed 'i2cDemo' (1 sources, 43 headers) in 0.354 sec: 1,478 declarations; 2,110 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:39.948
+!MESSAGE Indexed 'dhrystone' (3 sources, 63 headers) in 1.02 sec: 2,374 declarations; 3,473 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:40.506
+!MESSAGE Indexed 'spiWriteFlashDemo' (1 sources, 58 headers) in 0.549 sec: 2,270 declarations; 3,016 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:40.896
+!MESSAGE Indexed 'i2cSlaveDemo' (1 sources, 45 headers) in 0.388 sec: 1,509 declarations; 2,181 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:41.331
+!MESSAGE Indexed 'memTest' (1 sources, 41 headers) in 0.432 sec: 1,401 declarations; 1,913 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:41.731
+!MESSAGE Indexed 'fpuDemo' (1 sources, 42 headers) in 0.39 sec: 1,412 declarations; 1,988 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:42.031
+!MESSAGE Indexed 'userInterruptDemo' (1 sources, 43 headers) in 0.295 sec: 1,445 declarations; 2,036 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:42.288
+!MESSAGE Indexed 'uartEchoDemo' (1 sources, 41 headers) in 0.247 sec: 1,400 declarations; 1,905 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:42.595
+!MESSAGE Indexed 'customInstructionDemo' (1 sources, 42 headers) in 0.302 sec: 1,425 declarations; 1,940 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:42.861
+!MESSAGE Indexed 'gpioDemo' (1 sources, 44 headers) in 0.261 sec: 1,470 declarations; 2,110 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:43.099
+!MESSAGE Indexed 'spiDemo' (1 sources, 43 headers) in 0.235 sec: 1,441 declarations; 2,102 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:43.331
+!MESSAGE Indexed 'smpDemo' (1 sources, 44 headers) in 0.229 sec: 1,440 declarations; 2,011 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:43.760
+!MESSAGE Indexed 'userTimerDemo' (1 sources, 46 headers) in 0.424 sec: 1,466 declarations; 2,085 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:43.978
+!MESSAGE Indexed 'axi4Demo' (1 sources, 43 headers) in 0.217 sec: 1,450 declarations; 2,057 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:44.582
+!MESSAGE Indexed 'coremark' (8 sources, 44 headers) in 0.599 sec: 2,010 declarations; 4,622 references; 0 unresolved inclusions; 5 syntax errors; 1 unresolved names (0.015%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:44.965
+!MESSAGE Indexed 'apb3Demo' (1 sources, 42 headers) in 0.364 sec: 1,416 declarations; 1,929 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:45.289
+!MESSAGE Indexed 'coreTimerInterruptDemo' (1 sources, 44 headers) in 0.319 sec: 1,474 declarations; 2,074 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-03 15:00:45.575
+!MESSAGE Indexed 'bootloader' (1 sources, 45 headers) in 0.282 sec: 1,524 declarations; 2,325 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2023-01-03 15:06:49.641
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg -f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2023-01-03 15:06:51.147
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2023-01-03 15:08:47.692
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg -f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2023-01-03 15:08:49.267
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+!SESSION 2023-01-04 01:38:36.175 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -clearPersistedState
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -clearPersistedState
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-01-04 01:38:46.423
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2023-01-04 01:38:49.894
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+!SESSION 2023-01-05 13:49:04.223 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -clearPersistedState
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -clearPersistedState
+
+!ENTRY org.eclipse.ui 4 4 2023-01-05 13:49:20.845
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2023-01-05 13:49:54.092
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg -f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2023-01-05 13:49:54.829
+!MESSAGE OpenOCD failed with code (1).
+
+For more details, see the openocd console.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2023-01-05 13:50:24.887
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg -f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2023-01-05 13:50:26.036
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2023-01-05 13:51:08.319
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg -f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2023-01-05 13:51:09.764
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2023-01-05 13:51:22.396
+!MESSAGE Debug session 'gpioDemo_ti' already started. Terminate the first one before restarting.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2023-01-05 13:51:39.584
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg -f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.openocd.core 4 1 2023-01-05 13:51:41.007
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.managedbuild.cross.riscv.core 4 1 2023-01-05 13:54:24.905
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg -f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.managedbuild.cross.riscv.core 4 1 2023-01-05 13:54:26.111
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.managedbuild.cross.riscv.core 4 1 2023-01-05 13:54:52.764
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg -f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.managedbuild.cross.riscv.core 4 1 2023-01-05 13:54:54.091
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.managedbuild.cross.riscv.core 4 1 2023-01-05 13:55:22.042
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg -f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.managedbuild.cross.riscv.core 4 1 2023-01-05 13:55:23.222
+!MESSAGE /home/manoj/efinity/efinity-riscv-ide-2022.2.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+!SESSION 2023-01-09 14:22:57.418 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -clearPersistedState
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -clearPersistedState
+
+!ENTRY org.eclipse.ui 4 4 2023-01-09 14:23:18.450
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
