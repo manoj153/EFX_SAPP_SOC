@@ -18,15 +18,14 @@ INFO: default VHDL library search path is now "/media/manoj/5121/tool/efinix/efi
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/hbram_top.encrypted.v(0): INFO: undeclared symbol '**', assumed default net type '**' (VERI-2561)
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/hbram_top.encrypted.v(0): INFO: undeclared symbol '**', assumed default net type '**' (VERI-2561)
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/hbram_top.encrypted.v(0): WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list (VERI-1199)
-INFO: Analysis took 0.119157 seconds.
-INFO: 	Analysis took 0.1 seconds (approximately) in total CPU time.
-INFO: Analysis virtual memory usage: begin = 190.196 MB, end = 196.5 MB, delta = 6.304 MB
-INFO: Analysis resident set memory usage: begin = 72.184 MB, end = 81.9 MB, delta = 9.716 MB
-INFO: 	Analysis peak resident set memory usage = 870.184 MB
+INFO: Analysis took 0.120995 seconds.
+INFO: 	Analysis took 0.11 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 190.2 MB, end = 196.5 MB, delta = 6.3 MB
+INFO: Analysis resident set memory usage: begin = 71.964 MB, end = 81.708 MB, delta = 9.744 MB
+INFO: 	Analysis peak resident set memory usage = 1885.28 MB
 INFO: ***** Ending Analysis ... *****
 INFO: ***** Beginning Elaboration ... *****
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v(20): INFO: compiling module 'top_soc' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v(998): INFO: compiling module 'timer_start(MHZ=100,SECOND=10,PULSE=1)' (VERI-1018)
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v(207): INFO: compiling module 'axi4_slave' (VERI-1018)
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v(631): WARNING: expression size 10 truncated to fit in target size 8 (VERI-1209)
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v(1067): INFO: compiling module 'ext_mem(DATA_WIDTH=10)' (VERI-1018)
@@ -35,65 +34,66 @@ INFO: ***** Beginning Elaboration ... *****
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v(631): WARNING: expression size 10 truncated to fit in target size 8 (VERI-1209)
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v(631): WARNING: expression size 10 truncated to fit in target size 8 (VERI-1209)
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v(631): WARNING: expression size 10 truncated to fit in target size 8 (VERI-1209)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v(998): INFO: compiling module 'timer_start(MHZ=100,SECOND=10,PULSE=1)' (VERI-1018)
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v(21): INFO: compiling module 'apb3_slave' (VERI-1018)
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(49): INFO: compiling module 'sapphire_soc_no_cache' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(219): INFO: compiling module 'EfxSapphireSoc_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12063): INFO: compiling module 'BufferCC_2_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12039): INFO: compiling module 'BufferCC_3_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(7507): INFO: compiling module 'VexRiscv_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(8649): INFO: extracting RAM for identifier 'RegFilePlugin_regFile' (VERI-2571)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13731): INFO: compiling module 'StreamFifoLowLatency_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(8143): WARNING: net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc' does not have a driver (VDB-1002)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(7488): INFO: compiling module 'BufferCC_4_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(7277): INFO: compiling module 'JtagBridgeNoTap_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13659): INFO: compiling module 'FlowCCByToggle_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13692): WARNING: system function call 'urandom' is not supported (VERI-1141)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(220): INFO: compiling module 'EfxSapphireSoc_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12064): INFO: compiling module 'BufferCC_2_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12040): INFO: compiling module 'BufferCC_3_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(7508): INFO: compiling module 'VexRiscv_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(8650): INFO: extracting RAM for identifier 'RegFilePlugin_regFile' (VERI-2571)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13732): INFO: compiling module 'StreamFifoLowLatency_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(8144): WARNING: net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc' does not have a driver (VDB-1002)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(7489): INFO: compiling module 'BufferCC_4_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(7278): INFO: compiling module 'JtagBridgeNoTap_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13660): INFO: compiling module 'FlowCCByToggle_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13693): WARNING: system function call 'urandom' is not supported (VERI-1141)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(14435): INFO: compiling module 'BufferCC_1_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(14447): WARNING: system function call 'urandom' is not supported (VERI-1141)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13694): WARNING: system function call 'urandom' is not supported (VERI-1141)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(14436): INFO: compiling module 'BufferCC_1_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(14448): WARNING: system function call 'urandom' is not supported (VERI-1141)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(7190): INFO: compiling module 'SystemDebugger_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(7166): INFO: compiling module 'BufferCC_5_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(7030): INFO: compiling module 'BmbArbiter_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13562): INFO: compiling module 'StreamArbiter_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(6990): INFO: compiling module 'BmbDecoder_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(6421): INFO: compiling module 'BmbToAxi4SharedBridge_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13404): INFO: compiling module 'StreamFifo_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13452): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(6108): INFO: compiling module 'BmbDecoder_1_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5942): INFO: compiling module 'BmbDecoder_2_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5835): INFO: compiling module 'BmbOnChipRam_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5866): INFO: extracting RAM for identifier 'ram_symbol0' (VERI-2571)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5867): INFO: extracting RAM for identifier 'ram_symbol1' (VERI-2571)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5868): INFO: extracting RAM for identifier 'ram_symbol2' (VERI-2571)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5869): INFO: extracting RAM for identifier 'ram_symbol3' (VERI-2571)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5276): INFO: compiling module 'BmbDecoder_3_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5107): INFO: compiling module 'BmbClint_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(4625): INFO: compiling module 'BmbUartCtrl_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13273): INFO: compiling module 'UartCtrl_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(14208): INFO: compiling module 'UartCtrlTx_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13914): INFO: compiling module 'UartCtrlRx_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(14461): INFO: compiling module 'BufferCC_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13122): INFO: compiling module 'StreamFifo_2_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13166): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(4154): INFO: compiling module 'BmbSpiXdrMasterCtrl_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12471): INFO: compiling module 'TopLevel_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12307): INFO: compiling module 'StreamFifo_4_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12359): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12156): INFO: compiling module 'StreamFifo_5_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12200): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(3924): INFO: compiling module 'EfxTimerCtrl_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12133): INFO: compiling module 'Prescaler_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12087): INFO: compiling module 'Timer_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(3640): INFO: compiling module 'BmbGpio2_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
-/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(3478): INFO: compiling module 'BmbToApb3Bridge_70ebef6d8620475a8e45e675e7adb99e' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(14449): WARNING: system function call 'urandom' is not supported (VERI-1141)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(7191): INFO: compiling module 'SystemDebugger_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(7167): INFO: compiling module 'BufferCC_5_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(7031): INFO: compiling module 'BmbArbiter_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13563): INFO: compiling module 'StreamArbiter_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(6991): INFO: compiling module 'BmbDecoder_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(6422): INFO: compiling module 'BmbToAxi4SharedBridge_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13405): INFO: compiling module 'StreamFifo_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13453): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(6109): INFO: compiling module 'BmbDecoder_1_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5943): INFO: compiling module 'BmbDecoder_2_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5836): INFO: compiling module 'BmbOnChipRam_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5867): INFO: extracting RAM for identifier 'ram_symbol0' (VERI-2571)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5868): INFO: extracting RAM for identifier 'ram_symbol1' (VERI-2571)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5869): INFO: extracting RAM for identifier 'ram_symbol2' (VERI-2571)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5870): INFO: extracting RAM for identifier 'ram_symbol3' (VERI-2571)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5277): INFO: compiling module 'BmbDecoder_3_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(5108): INFO: compiling module 'BmbClint_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(4626): INFO: compiling module 'BmbUartCtrl_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13274): INFO: compiling module 'UartCtrl_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(14209): INFO: compiling module 'UartCtrlTx_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13915): INFO: compiling module 'UartCtrlRx_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(14462): INFO: compiling module 'BufferCC_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13123): INFO: compiling module 'StreamFifo_2_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(13167): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(4155): INFO: compiling module 'BmbSpiXdrMasterCtrl_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12472): INFO: compiling module 'TopLevel_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12308): INFO: compiling module 'StreamFifo_4_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12360): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12157): INFO: compiling module 'StreamFifo_5_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12201): INFO: extracting RAM for identifier 'logic_ram' (VERI-2571)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(3925): INFO: compiling module 'EfxTimerCtrl_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12134): INFO: compiling module 'Prescaler_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(12088): INFO: compiling module 'Timer_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(3641): INFO: compiling module 'BmbGpio2_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
+/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v(3479): INFO: compiling module 'BmbToApb3Bridge_f7e8d09faee74d1abffbda5156fa885b' (VERI-1018)
 /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v(188): WARNING: input port 'jtagCtrl_update' remains unconnected for this instance (VDB-1053)
 [EFX-0256 WARNING] The primary output port 'memoryCheckerPass' wire 'memoryCheckerPass' is not driven.
-INFO: Elaboration took 0.361301 seconds.
-INFO: 	Elaboration took 0.35 seconds (approximately) in total CPU time.
-INFO: Elaboration virtual memory usage: begin = 196.5 MB, end = 244.312 MB, delta = 47.812 MB
-INFO: Elaboration resident set memory usage: begin = 81.9 MB, end = 131.112 MB, delta = 49.212 MB
-INFO: 	Elaboration peak resident set memory usage = 870.184 MB
+INFO: Elaboration took 0.563501 seconds.
+INFO: 	Elaboration took 0.54 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 196.5 MB, end = 246.396 MB, delta = 49.896 MB
+INFO: Elaboration resident set memory usage: begin = 81.708 MB, end = 133.216 MB, delta = 51.508 MB
+INFO: 	Elaboration peak resident set memory usage = 1885.28 MB
 INFO: ***** Ending Elaboration ... *****
 [EFX-0000 INFO] Setting Synthesis Option: mode=speed
 INFO: ***** Beginning Reading Mapping Library ... *****
@@ -116,19 +116,18 @@ INFO: ***** Beginning Reading Mapping Library ... *****
 /media/manoj/5121/tool/efinix/efinity/2022.M/sim_models/maplib/efinix_maplib.v(539): INFO: compiling module 'RAMB5' (VERI-1018)
 /media/manoj/5121/tool/efinix/efinity/2022.M/sim_models/maplib/efinix_maplib.v(601): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
 /media/manoj/5121/tool/efinix/efinity/2022.M/sim_models/maplib/efinix_maplib.v(693): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0256 WARNING] The primary output port 'memoryCheckerPass' wire 'memoryCheckerPass' is not driven.
 /media/manoj/5121/tool/efinix/efinity/2022.M/sim_models/maplib/efinix_maplib.v(794): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
 /media/manoj/5121/tool/efinix/efinity/2022.M/sim_models/maplib/efinix_maplib.v(924): INFO: compiling module 'EFX_SRL8' (VERI-1018)
-[EFX-0256 WARNING] The primary output port 'memoryCheckerPass' wire 'memoryCheckerPass' is not driven.
-[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[31]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
-[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[30]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
-INFO: Reading Mapping Library took 0.0166673 seconds.
+INFO: Reading Mapping Library took 0.0208009 seconds.
 INFO: 	Reading Mapping Library took 0.02 seconds (approximately) in total CPU time.
-INFO: Reading Mapping Library virtual memory usage: begin = 246.236 MB, end = 246.236 MB, delta = 0 MB
-INFO: Reading Mapping Library resident set memory usage: begin = 133.384 MB, end = 133.384 MB, delta = 0 MB
-INFO: 	Reading Mapping Library peak resident set memory usage = 870.184 MB
+INFO: Reading Mapping Library virtual memory usage: begin = 249.108 MB, end = 249.108 MB, delta = 0 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 136.024 MB, end = 136.024 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 1885.28 MB
 INFO: ***** Ending Reading Mapping Library ... *****
 [EFX-0000 INFO] ... Pre-synthesis checks begin
-[EFX-0677 INFO] Zero initialization of uninitialized memory block 'ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:1088)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[31]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
+[EFX-0200 WARNING] Removing redundant signal : araddr_wrap[30]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
 [EFX-0200 WARNING] Removing redundant signal : araddr_wrap[29]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
 [EFX-0200 WARNING] Removing redundant signal : araddr_wrap[28]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
 [EFX-0200 WARNING] Removing redundant signal : araddr_wrap[27]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
@@ -148,27 +147,26 @@ INFO: ***** Ending Reading Mapping Library ... *****
 [EFX-0200 WARNING] Removing redundant signal : araddr_wrap[13]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
 [EFX-0200 WARNING] Removing redundant signal : araddr_wrap[12]. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:310)
 [EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/design_modules.v:1088)
 [EFX-0266 WARNING] Module Instance 'IBusSimplePlugin_rspJoin_rspBuffer_c' input pin tied to constant (io_flush=0).
-[EFX-0031 INFO] 'select_1195' instance is encountered with don't-care(1'bx) input, rewiring to GND. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:10809)
-[EFX-0031 INFO] 'select_1198' instance is encountered with don't-care(1'bx) input, rewiring to GND. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:10820)
-[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:8143)
+[EFX-0031 INFO] 'select_1195' instance is encountered with don't-care(1'bx) input, rewiring to GND. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:10810)
+[EFX-0031 INFO] 'select_1198' instance is encountered with don't-care(1'bx) input, rewiring to GND. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:10821)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:8144)
 [EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_0_payload_fragment_source[0]=0).
 [EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_source[0]=0).
 [EFX-0266 WARNING] Module Instance 'memory_arbiter' input pin tied to constant (io_inputs_1_payload_fragment_context[0]=0).
 [EFX-0266 WARNING] Module Instance 'writeCmdInfo_fifo' input pin tied to constant (io_flush=0).
 [EFX-0266 WARNING] Module Instance 'readCmdInfo_fifo' input pin tied to constant (io_flush=0).
-[EFX-0677 INFO] Zero initialization of uninitialized memory block 'RegFilePlugin_regFile'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:8649)
-[EFX-0677 INFO] Zero initialization of uninitialized memory block 'logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13452)
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'RegFilePlugin_regFile'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:8650)
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13453)
 [EFX-0266 WARNING] Module Instance 'tx' input pin tied to constant (io_cts=0).
 [EFX-0266 WARNING] Module Instance 'bridge_write_streamUnbuffered_queueWithOccupancy' input pin tied to constant (io_flush=0).
 [EFX-0266 WARNING] Module Instance 'uartCtrl_1_io_read_queueWithOccupancy' input pin tied to constant (io_flush=0).
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13167)
+[EFX-0031 INFO] 'select_90' instance is encountered with don't-care(1'bx) input, rewiring to GND. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:12855)
+[EFX-0031 INFO] 'select_131' instance is encountered with don't-care(1'bx) input, rewiring to GND. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:12995)
 [EFX-0266 WARNING] Module Instance 'mapping_cmdLogic_streamUnbuffered_queueWithAvailability' input pin tied to constant (io_flush=0).
 [EFX-0266 WARNING] Module Instance 'ctrl_io_rsp_queueWithOccupancy' input pin tied to constant (io_flush=0).
-[EFX-0677 INFO] Zero initialization of uninitialized memory block 'logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13166)
-[EFX-0031 INFO] 'select_90' instance is encountered with don't-care(1'bx) input, rewiring to GND. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:12854)
-[EFX-0031 INFO] 'select_131' instance is encountered with don't-care(1'bx) input, rewiring to GND. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:12994)
-[EFX-0677 INFO] Zero initialization of uninitialized memory block 'logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:12359)
-[EFX-0677 INFO] Zero initialization of uninitialized memory block 'logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:12200)
 [EFX-0266 WARNING] Module Instance 'bufferCC_6' input pin tied to constant (io_dataIn=0).
 [EFX-0266 WARNING] Module Instance 'bufferCC_7' input pin tied to constant (io_dataIn=0).
 [EFX-0266 WARNING] Module Instance 'bufferCC_8' input pin tied to constant (io_dataIn=0).
@@ -208,135 +206,137 @@ INFO: ***** Ending Reading Mapping Library ... *****
 [EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[1]=0).
 [EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[2]=0).
 [EFX-0266 WARNING] Module Instance 'system_bridge_bmb_arbiter' input pin tied to constant (io_inputs_1_cmd_payload_fragment_mask[3]=0).
-[EFX-0031 INFO] 'system_bridge_bmb_arbiter' instance is encountered with don't-care(1'bx) input, rewiring to GND. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:1530)
-[EFX-0031 INFO] 'select_757' instance is encountered with don't-care(1'bx) input, rewiring to GND. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:2905)
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:12360)
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:12201)
+[EFX-0031 INFO] 'system_bridge_bmb_arbiter' instance is encountered with don't-care(1'bx) input, rewiring to GND. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:1531)
+[EFX-0031 INFO] 'select_757' instance is encountered with don't-care(1'bx) input, rewiring to GND. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:2906)
 [EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.jtagCtrl_update'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
 [EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.jtagCtrl_reset'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
 [EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.system_spi_0_io_data_2_read'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
 [EFX-0201 WARNING] Re-wiring to GND non-driven net 'soc_inst.system_spi_0_io_data_3_read'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:188)
 [EFX-0201 WARNING] Re-wiring to GND non-driven net 'memoryCheckerPass'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/top_soc.v:41)
-[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
 [EFX-0000 INFO] ... NameSpace init begin
-[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
 [EFX-0000 INFO] ... Mapping design "top_soc"
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "timer_start(MHZ=100,SECOND=10,PULSE=1)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "timer_start(MHZ=100,SECOND=10,PULSE=1)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "ext_mem(DATA_WIDTH=10)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "ext_mem(DATA_WIDTH=10)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ext_mem(DATA_WIDTH=10)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_slave" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_slave" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_slave" end (Real time : 1s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "timer_start(MHZ=100,SECOND=10,PULSE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "timer_start(MHZ=100,SECOND=10,PULSE=1)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "apb3_slave" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "apb3_slave" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_2_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_2_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_3_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_3_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoLowLatency_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoLowLatency_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "VexRiscv_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "VexRiscv_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 1s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_4_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_4_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_1_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_1_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "FlowCCByToggle_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "FlowCCByToggle_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "JtagBridgeNoTap_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "JtagBridgeNoTap_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "SystemDebugger_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "SystemDebugger_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_5_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_5_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamArbiter_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamArbiter_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbArbiter_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbArbiter_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToAxi4SharedBridge_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToAxi4SharedBridge_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_1_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_1_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_2_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_2_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbOnChipRam_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbOnChipRam_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_3_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_3_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbClint_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbClint_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrlTx_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrlTx_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrlRx_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrlRx_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrl_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrl_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_2_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_2_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbUartCtrl_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbUartCtrl_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "TopLevel_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "TopLevel_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_4_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_4_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_5_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_5_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbSpiXdrMasterCtrl_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbSpiXdrMasterCtrl_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "Prescaler_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "Prescaler_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxTimerCtrl_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxTimerCtrl_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbGpio2_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbGpio2_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToApb3Bridge_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToApb3Bridge_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 870184KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxSapphireSoc_70ebef6d8620475a8e45e675e7adb99e" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxSapphireSoc_70ebef6d8620475a8e45e675e7adb99e" end (Real time : 1s CPU user time : 3s CPU sys time : 0s MEM : 870184KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "apb3_slave" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_2_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_2_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_3_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_3_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoLowLatency_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifoLowLatency_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "VexRiscv_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "VexRiscv_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_4_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_4_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_1_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_1_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FlowCCByToggle_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FlowCCByToggle_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "JtagBridgeNoTap_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "JtagBridgeNoTap_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SystemDebugger_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SystemDebugger_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_5_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_5_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamArbiter_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamArbiter_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbArbiter_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbArbiter_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToAxi4SharedBridge_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToAxi4SharedBridge_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_1_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_1_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_2_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_2_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbOnChipRam_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbOnChipRam_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_3_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbDecoder_3_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbClint_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbClint_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrlTx_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrlTx_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BufferCC_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrlRx_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrlRx_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrl_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "UartCtrl_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_2_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_2_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbUartCtrl_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbUartCtrl_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "TopLevel_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "TopLevel_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_4_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_4_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_5_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "StreamFifo_5_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbSpiXdrMasterCtrl_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbSpiXdrMasterCtrl_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Prescaler_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Prescaler_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxTimerCtrl_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxTimerCtrl_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbGpio2_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbGpio2_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToApb3Bridge_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BmbToApb3Bridge_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxSapphireSoc_f7e8d09faee74d1abffbda5156fa885b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "EfxSapphireSoc_f7e8d09faee74d1abffbda5156fa885b" end (Real time : 1s CPU user time : 3s CPU sys time : 0s MEM : 1885280KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "sapphire_soc_no_cache" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "sapphire_soc_no_cache" end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 870184KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sapphire_soc_no_cache" end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 1885280KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "top_soc" begin
-[EFX-0655 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13452)
-[EFX-0655 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13452)
+[EFX-0655 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/readCmdInfo_fifo/logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13453)
+[EFX-0655 WARNING] Mapping into logic memory block 'soc_inst/u_EfxSapphireSoc/system_axiA_logic_bmbToAxiBridge/writeCmdInfo_fifo/logic_ram'. (/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/sapphire_soc_no_cache.v:13453)
 [EFX-0000 INFO] ... Clock Enable Synthesis Performed on 393 flops.
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "top_soc" end (Real time : 4s CPU user time : 7s CPU sys time : 0s MEM : 870184KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top_soc" end (Real time : 5s CPU user time : 8s CPU sys time : 0s MEM : 1885280KB)
 [EFX-0000 INFO] ... Flat optimizations begin
-[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 870184KB)
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 1885280KB)
 [EFX-0000 INFO] ... Flat synthesis begin
-[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 870184KB)
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 1885280KB)
 [EFX-0000 INFO] ... Flat optimizations begin
-[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 870184KB)
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 1885280KB)
 [EFX-0000 INFO] ... Check and break combinational loops begin
-[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 870184KB)
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 1885280KB)
 [EFX-0000 INFO] ... SOP modeling begin
-[EFX-0000 INFO] ... SOP modeling end (Real time : 1s CPU user time : 8s CPU sys time : 0s MEM : 870184KB)
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 9s CPU sys time : 0s MEM : 1885280KB)
 [EFX-0000 INFO] ... LUT mapping begin
-[EFX-0000 INFO] ... LS, strategy: 3, nd: 4195, ed: 13621, lv: 7, pw: 11463.92
-[EFX-0000 INFO] ... LUT mapping end (Real time : 13s CPU user time : 20s CPU sys time : 1s MEM : 870184KB)
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 4526, ed: 15000, lv: 7, pw: 15224.31
+[EFX-0000 INFO] ... LUT mapping end (Real time : 15s CPU user time : 22s CPU sys time : 1s MEM : 1885280KB)
 [EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
-[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 20s CPU sys time : 1s MEM : 870184KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 22s CPU sys time : 1s MEM : 1885280KB)
 [EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
-[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 1s CPU user time : 21s CPU sys time : 1s MEM : 870184KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 23s CPU sys time : 1s MEM : 1885280KB)
 INFO: ***** Beginning VDB Netlist Checker ... *****
-INFO: VDB Netlist Checker took 0.112491 seconds.
-INFO: 	VDB Netlist Checker took 0.11 seconds (approximately) in total CPU time.
-INFO: VDB Netlist Checker virtual memory usage: begin = 300.764 MB, end = 300.764 MB, delta = 0 MB
-INFO: VDB Netlist Checker resident set memory usage: begin = 194.928 MB, end = 194.928 MB, delta = 0 MB
-INFO: 	VDB Netlist Checker peak resident set memory usage = 870.184 MB
+INFO: VDB Netlist Checker took 0.147686 seconds.
+INFO: 	VDB Netlist Checker took 0.15 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 314.104 MB, end = 314.104 MB, delta = 0 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 206.024 MB, end = 206.024 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 1885.28 MB
 INFO: ***** Ending VDB Netlist Checker ... *****
 -- Writing netlist 'top_soc' to Verilog file '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.map.v' (VDB-1030)
 [EFX-0000 INFO] Resource Summary 
 [EFX-0000 INFO] =============================== 
 [EFX-0000 INFO] EFX_ADD         : 	676
-[EFX-0000 INFO] EFX_LUT4        : 	3872
+[EFX-0000 INFO] EFX_LUT4        : 	3962
 [EFX-0000 INFO] EFX_DSP48       : 	4
-[EFX-0000 INFO] EFX_FF          : 	3205
+[EFX-0000 INFO] EFX_FF          : 	3209
 [EFX-0000 INFO] EFX_SRL8        : 	3
-[EFX-0000 INFO] EFX_RAM10       : 	76
+[EFX-0000 INFO] EFX_RAM10       : 	204
 [EFX-0000 INFO] =============================== 

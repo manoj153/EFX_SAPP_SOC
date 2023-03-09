@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<efx:tool_report xmlns:efx="http://www.efinixinc.com/tool_report" date="2023-01-10T18:12:32+0800" project="soc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/tool_report tool_report.xsd">
+<efx:tool_report xmlns:efx="http://www.efinixinc.com/tool_report" date="2023-03-07T02:31:57+0800" project="soc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/tool_report tool_report.xsd">
 
   <efx:group name="System Resources">
     <efx:group_data info="runtime" name="packing" severity="info" value="0|0:0:0"/>
-    <efx:group_data info="runtime" name="placement" severity="info" value="0|0:0:14"/>
-    <efx:group_data info="runtime" name="routing" severity="info" value="0|0:0:6"/>
-    <efx:group_data info="peak_rr" name="Peak RSS" severity="info" value="1205.06 MB"/>
+    <efx:group_data info="runtime" name="placement" severity="info" value="0|0:0:15"/>
+    <efx:group_data info="runtime" name="routing" severity="info" value="0|0:0:9"/>
+    <efx:group_data info="peak_rr" name="Peak RSS" severity="info" value="1885.9 MB"/>
   </efx:group>
 
   <efx:group name="Core Resources">
     <efx:group_data name="Inputs" severity="info" value="17 / 1703"/>
     <efx:group_data name="Outputs" severity="info" value="28 / 2267"/>
-    <efx:group_data name="XLRs" severity="info" value="6180 / 60800"/>
-    <efx:group_data name="Memory Blocks" severity="info" value="76 / 256"/>
+    <efx:group_data name="XLRs" severity="info" value="6330 / 60800"/>
+    <efx:group_data name="Memory Blocks" severity="info" value="204 / 256"/>
     <efx:group_data name="DSP Blocks" severity="info" value="4 / 160"/>
   </efx:group>
 
@@ -22,10 +22,10 @@
   </efx:group>
 
   <efx:group name="Timing">
-    <efx:group_data name="Worst Negative Slack (WNS)" severity="info" value="4.599 ns"/>
-    <efx:group_data name="Worst Hold Slack (WHS)" severity="info" value="0.026 ns"/>
-    <efx:group_data name="io_systemClk" severity="info" value="185.151 MHz"/>
-    <efx:group_data name="jtag_inst1_TCK" severity="info" value="228.467 MHz"/>
+    <efx:group_data name="Worst Negative Slack (WNS)" severity="info" value="4.3 ns"/>
+    <efx:group_data name="Worst Hold Slack (WHS)" severity="info" value="0.028 ns"/>
+    <efx:group_data name="io_systemClk" severity="info" value="175.439 MHz"/>
+    <efx:group_data name="jtag_inst1_TCK" severity="info" value="233.645 MHz"/>
   </efx:group>
 
 </efx:tool_report>

@@ -15,11 +15,11 @@ Running Placement and Routing for Family "Titanium", Device "Ti60F225" ...
 ***** Beginning stage netlist pre-processing ... *****
 Successfully Read in Verific binary Netlist dump file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/soc.vdb".
 ***** Beginning VDB Netlist Checker ... *****
-VDB Netlist Checker took 0.117378 seconds.
-	VDB Netlist Checker took 0.12 seconds (approximately) in total CPU time.
-VDB Netlist Checker virtual memory usage: begin = 191.836 MB, end = 191.836 MB, delta = 0 MB
-VDB Netlist Checker resident set memory usage: begin = 70.684 MB, end = 70.684 MB, delta = 0 MB
-	VDB Netlist Checker peak resident set memory usage = 871.08 MB
+VDB Netlist Checker took 0.157723 seconds.
+	VDB Netlist Checker took 0.16 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 195.988 MB, end = 195.988 MB, delta = 0 MB
+VDB Netlist Checker resident set memory usage: begin = 74.992 MB, end = 74.992 MB, delta = 0 MB
+	VDB Netlist Checker peak resident set memory usage = 1885.9 MB
 ***** Ending VDB Netlist Checker ... *****
 Reading core interface constraints from '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.csv'.
 Successfully processed interface constraints file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.csv".
@@ -31,44 +31,44 @@ Pass 0: Swept away 0 blocks with no fanout.
 Swept away 0 nets and 0 blocks in total.
 Removed 0 LUT buffers.
 Successfully created VPR logical netlist from Verific binary DataBase file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/soc.vdb".
-Netlist pre-processing took 0.256289 seconds.
-	Netlist pre-processing took 0.25 seconds (approximately) in total CPU time.
-Netlist pre-processing virtual memory usage: begin = 176.468 MB, end = 207.796 MB, delta = 31.328 MB
-Netlist pre-processing resident set memory usage: begin = 55.088 MB, end = 87.028 MB, delta = 31.94 MB
-	Netlist pre-processing peak resident set memory usage = 871.08 MB
+Netlist pre-processing took 0.354198 seconds.
+	Netlist pre-processing took 0.34 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 175.912 MB, end = 214.512 MB, delta = 38.6 MB
+Netlist pre-processing resident set memory usage: begin = 54.42 MB, end = 94 MB, delta = 39.58 MB
+	Netlist pre-processing peak resident set memory usage = 1885.9 MB
 ***** Ending stage netlist pre-processing *****
 
-Load Global Network took 0.458295 seconds.
-	Load Global Network took 0.42 seconds (approximately) in total CPU time.
-Load Global Network virtual memory usage: begin = 207.796 MB, end = 354.24 MB, delta = 146.444 MB
-Load Global Network resident set memory usage: begin = 87.028 MB, end = 213.372 MB, delta = 126.344 MB
-	Load Global Network peak resident set memory usage = 871.08 MB
+Load Global Network took 0.462493 seconds.
+	Load Global Network took 0.44 seconds (approximately) in total CPU time.
+Load Global Network virtual memory usage: begin = 214.512 MB, end = 355.788 MB, delta = 141.276 MB
+Load Global Network resident set memory usage: begin = 94 MB, end = 216.468 MB, delta = 122.468 MB
+	Load Global Network peak resident set memory usage = 1885.9 MB
 Reading /media/manoj/5121/tool/efinix/efinity/2022.M/arch/./rr_pb_hier_mapping.xml
 ***** Beginning stage pre-packing ... *****
 ***** Ending stage pre-packing *****
 
 ***** Beginning stage packing ... *****
-Generate proto netlist for file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.net_proto" took 0.015806 seconds
+Generate proto netlist for file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.net_proto" took 0.016364 seconds
 Creating IO constraints file '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.io_place'
-Packing took 0.0560569 seconds.
+Packing took 0.0591386 seconds.
 	Packing took 0.06 seconds (approximately) in total CPU time.
-Packing virtual memory usage: begin = 361.34 MB, end = 361.34 MB, delta = 0 MB
-Packing resident set memory usage: begin = 220.884 MB, end = 220.884 MB, delta = 0 MB
-	Packing peak resident set memory usage = 871.08 MB
+Packing virtual memory usage: begin = 362.948 MB, end = 362.948 MB, delta = 0 MB
+Packing resident set memory usage: begin = 223.888 MB, end = 223.888 MB, delta = 0 MB
+	Packing peak resident set memory usage = 1885.9 MB
 ***** Ending stage packing *****
 
 ***** Beginning stage packed netlist loading ... *****
 Read proto netlist file /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.net_proto
-Read proto netlist for file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.net_proto" took 0.001707 seconds
-Setup net and block data structure took 0.391723 seconds
+Read proto netlist for file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.net_proto" took 0.001821 seconds
+Setup net and block data structure took 0.492632 seconds
 Reading core interface constraints from '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.csv'.
 Successfully processed interface constraints file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.csv".
 WARNING(1): Counting 1 clocks with unassigned pad location as global clocks.
-Packed netlist loading took 3.39225 seconds.
-	Packed netlist loading took 3.34 seconds (approximately) in total CPU time.
-Packed netlist loading virtual memory usage: begin = 361.34 MB, end = 697.908 MB, delta = 336.568 MB
-Packed netlist loading resident set memory usage: begin = 220.884 MB, end = 489.624 MB, delta = 268.74 MB
-	Packed netlist loading peak resident set memory usage = 871.08 MB
+Packed netlist loading took 3.15993 seconds.
+	Packed netlist loading took 3.06 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 362.948 MB, end = 772.892 MB, delta = 409.944 MB
+Packed netlist loading resident set memory usage: begin = 223.888 MB, end = 564.968 MB, delta = 341.08 MB
+	Packed netlist loading peak resident set memory usage = 1885.9 MB
 ***** Ending stage packed netlist loading *****
 
 ***** Beginning stage pre-placement ... *****
@@ -77,11 +77,11 @@ Packed netlist loading resident set memory usage: begin = 220.884 MB, end = 489.
 
 Read router lookahead for device Ti60F225 from file /media/manoj/5121/tool/efinix/efinity/2022.M/arch/./lookahead/QX25_C4.lookahead.zst.
 
-Load Router Lookahead took 0.508692 seconds.
-	Load Router Lookahead took 0.23 seconds (approximately) in total CPU time.
-Load Router Lookahead virtual memory usage: begin = 697.908 MB, end = 943.62 MB, delta = 245.712 MB
-Load Router Lookahead resident set memory usage: begin = 489.624 MB, end = 735.612 MB, delta = 245.988 MB
-	Load Router Lookahead peak resident set memory usage = 956.836 MB
+Load Router Lookahead took 0.521014 seconds.
+	Load Router Lookahead took 0.28 seconds (approximately) in total CPU time.
+Load Router Lookahead virtual memory usage: begin = 772.892 MB, end = 1018.6 MB, delta = 245.708 MB
+Load Router Lookahead resident set memory usage: begin = 564.968 MB, end = 810.968 MB, delta = 246 MB
+	Load Router Lookahead peak resident set memory usage = 1885.9 MB
 
 SDC file '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/constraints.sdc' parsed successfully.
 2 clocks (including virtual clocks), 10 inputs and 14 outputs were constrained.
@@ -101,9 +101,9 @@ Found 6 synchronizers as follows:
 	Synchronizer 0:  soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_payload_error~FF
 	Synchronizer 1:  soc_inst/u_EfxSapphireSoc/bufferCC_8/buffers_0_2~FF soc_inst/u_EfxSapphireSoc/bufferCC_8_io_dataOut~FF
 	Synchronizer 2:  soc_inst/u_EfxSapphireSoc/bufferCC_6/buffers_0_2~FF soc_inst/u_EfxSapphireSoc/bufferCC_6_io_dataOut~FF
-	Synchronizer 3:  soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/flowCCByToggle_1/inputArea_target_buffercc/i7_2
-	Synchronizer 4:  soc_inst/u_EfxSapphireSoc/bufferCC_7/buffers_0_2~FF soc_inst/u_EfxSapphireSoc/bufferCC_7_io_dataOut~FF
-	Synchronizer 5:  soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_valid~FF
+	Synchronizer 3:  soc_inst/u_EfxSapphireSoc/bufferCC_7/buffers_0_2~FF soc_inst/u_EfxSapphireSoc/bufferCC_7_io_dataOut~FF
+	Synchronizer 4:  soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/system_rsp_valid~FF
+	Synchronizer 5:  soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/flowCCByToggle_1/inputArea_target_buffercc/i7_2
 Create /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc_after_qp.qdelay
 QPLACER STATIC DB USAGE DISABLED
 NumRegions 1
@@ -112,109 +112,110 @@ Starting Global Placer with 6 threads ...
  ----------     -------  --------------     -------
   Iteration       WHPWL Worst Slack (ps) Convergence
  ----------     -------  --------------     -------
-          1     1290080            7175         1.0%
-          2      708323            7175         2.0%
-          3      614413            6994         3.1%
-          4      508135            6807         5.8%
-          5      477746            6663        11.0%
-          6      376321            6257        21.4%
-          7      288059            6022        40.0%
-          8      255064            5846        55.0%
-          9      248241            5723        58.9%
-         10      244852            5634        62.3%
-         11      243200            5733        62.3%
-         12      239001            5654        64.0%
-         13      243669            5750        66.2%
-         14      244157            5854        67.0%
-         15      242547            5721        67.5%
-         16      239293            5856        68.4%
-         17      241891            5802        73.9%
-         18      235921            5655        73.9%
-         19      237228            5568        77.5%
-         20      235020            5524        77.5%
-         21      235873            5537        80.6%
-         22      230708            5562        80.6%
-         23      231919            5618        82.4%
-         24      231314            5570        82.4%
-         25      232312            5587        82.4%
-         26      228213            5589        82.4%
-         27      230113            5608        84.8%
-         28      228438            5568        84.8%
-         29      230661            5751        84.8%
-         30      228914            5725        84.8%
-         31      228096            5636        86.9%
-         32      229654            5750        86.9%
-         33      230033            5802        87.4%
-         34      229730            5727        88.2%
-         35      229451            5691        88.2%
-         36      229530            5572        90.2%
-         37      229862            5629        90.7%
-         38      230773            5557        90.7%
-         39      229291            5677        91.6%
-         40      228753            5569        93.0%
-         41      231118            5469        93.6%
-         42      230172            5566        94.1%
-         43      231822            5491        95.0%
-         44      223887            5458        95.0%
-         45      224049            5571        97.1%
-         46      223712            5438        98.2%
-         47      225257            5243        98.4%
-         48      226132            5517        98.6%
-         49      226607            5349        99.0%
-         50      227367            5182        99.0%
+          1     1446428            7125         1.0%
+          2      793474            7125         1.9%
+          3      824682            7010         2.6%
+          4      621963            6803         5.2%
+          5      496433            6545        13.2%
+          6      395740            5995        27.5%
+          7      329777            5314        45.6%
+          8      289509            5041        61.4%
+          9      270057            4910        65.6%
+         10      267896            4787        70.8%
+         11      266981            5008        70.8%
+         12      266822            4962        72.5%
+         13      263309            4971        72.5%
+         14      270866            4995        76.7%
+         15      262245            5143        76.7%
+         16      264183            4990        79.8%
+         17      260463            4926        79.8%
+         18      263265            4961        82.8%
+         19      260272            4994        82.8%
+         20      263553            5022        83.4%
+         21      256618            4923        83.4%
+         22      262634            4858        84.2%
+         23      258515            4873        84.2%
+         24      262295            5001        85.0%
+         25      257124            4744        85.0%
+         26      260199            4963        85.7%
+         27      257143            4777        85.7%
+         28      259271            4897        86.5%
+         29      255293            4723        86.5%
+         30      255153            4876        87.4%
+         31      257757            4750        87.4%
+         32      255221            4991        87.4%
+         33      255991            4783        87.8%
+         34      255297            4799        87.8%
+         35      256861            4894        88.3%
+         36      255993            4958        88.3%
+         37      256593            4963        89.5%
+         38      257412            4796        90.1%
+         39      254664            4761        90.5%
+         40      255390            4751        92.5%
+         41      256130            4818        92.6%
+         42      255647            4746        93.6%
+         43      256020            4654        94.9%
+         44      257236            4851        95.5%
+         45      250582            4708        96.8%
+         46      251004            4672        98.3%
+         47      252078            4799        98.9%
+         48      252884            4686        99.1%
+         49      253644            4681        99.5%
+         50      253775            4684        99.5%
+         51      253896            4687        99.6%
 Starting Annealer
 
  ----------     -------  --------------     -------
   Iteration       WHPWL  Delay Max (ps)     R Limit
  ----------     -------  --------------     -------
-          0      223712            4373        30.0
-          1      211153            4292        30.0
-          2      195682            4251        29.2
-          3      182018            4292        28.0
-          4      173477            4269        26.5
-          5      168397            4235        25.0
-          6      166323            4126        23.4
-          7      162770            4141        21.9
-          8      161345            4113        20.3
-          9      160113            3943        18.9
-         10      158038            4011        17.4
-         11      155854            3943        16.0
-         12      155127            4011        14.7
-         13      153637            3943        13.5
-         14      152378            4011        12.4
-         15      150615            3993        11.3
-         16      148943            3990        10.4
-         17      148187            3854         9.5
-         18      147432            3825         8.7
-         19      146395            3844         7.9
-         20      145013            3839         7.2
-         21      144357            3763         6.6
-         22      143798            3771         6.0
-         23      142738            3697         5.5
-         24      142268            3765         5.0
-         25      141352            3833         4.5
-         26      140903            3833         4.1
-         27      140873            3731         3.7
-         28      140503            3765         3.4
-         29      140126            3697         3.0
-         30      139906            3765         2.8
-         31      139515            3697         2.5
-         32      139254            3765         2.2
+          0      250582            5212        30.0
+          1      237327            4958        30.0
+          2      217064            4926        29.4
+          3      206520            4800        28.3
+          4      203345            4642        27.0
+          5      199495            4569        25.6
+          6      194885            4474        24.1
+          7      192415            4460        22.6
+          8      189505            4412        21.1
+          9      187301            4426        19.6
+         10      184908            4411        18.1
+         11      183583            4307        16.8
+         12      181814            4300        15.4
+         13      180021            4358        14.2
+         14      178556            4285        13.0
+         15      177301            4287        12.0
+         16      176071            4227        10.9
+         17      174676            4334        10.0
+         18      173718            4233         9.1
+         19      172707            4193         8.3
+         20      171737            4139         7.6
+         21      171145            4144         6.9
+         22      170101            4170         6.3
+         23      169209            4170         5.7
+         24      168555            4139         5.2
+         25      167952            4124         4.7
+         26      167225            4129         4.3
+         27      166846            4124         3.9
+         28      166222            4129         3.5
+         29      165924            4124         3.2
+         30      165612            4129         2.9
+         31      165021            4124         2.6
+         32      164452            4129         2.3
 Generate /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc_after_qp.qdelay
-Placement successful: 6125 cells are placed
-Peak congestion smeared over 1/4 of the chip is 0.323748 at 25,2
-Congestion-weighted HPWL per net: 15.6418
+Placement successful: 6347 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.311208 at 76,90
+Congestion-weighted HPWL per net: 18.5675
 
 Reading placement constraints from '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.qplace'.
-Finished Realigning Types (1467 blocks needed type change)
+Finished Realigning Types (1350 blocks needed type change)
 Run checks after placement.
 
 Completed placement consistency check successfully.
 Successfully created FPGA place file '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.place'
-Placement took 14.747 seconds.
-	Placement took 38.91 seconds (approximately) in total CPU time.
-Placement virtual memory usage: begin = 943.62 MB, end = 2030.63 MB, delta = 1087.01 MB
-Placement resident set memory usage: begin = 735.612 MB, end = 1015.27 MB, delta = 279.656 MB
-	Placement peak resident set memory usage = 1025.35 MB
+Placement took 15.9093 seconds.
+	Placement took 44.57 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 1018.6 MB, end = 2118.55 MB, delta = 1099.95 MB
+Placement resident set memory usage: begin = 810.968 MB, end = 1113.41 MB, delta = 302.44 MB
+	Placement peak resident set memory usage = 1885.9 MB
 ***** Ending stage placement *****
 

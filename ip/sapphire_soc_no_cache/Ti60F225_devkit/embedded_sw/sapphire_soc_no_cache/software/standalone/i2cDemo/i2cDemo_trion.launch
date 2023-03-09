@@ -22,8 +22,8 @@
 <intAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.gdbServerGdbPortNumber" value="3333"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.gdbServerLog" value=""/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.gdbServerOther" value="-f ../../../bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg&#10;-f ../../../bsp/efinix/EfxSapphireSoc/openocd/debug.cfg"/>
-<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.targetRegFile" value="/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/embedded_sw/sapphire_soc_no_cache/bsp/efinix/EfxSapphireSoc/openocd/sapphire_soc_32bit-reg.xml"/>
-<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.svdPath" value="/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/embedded_sw/sapphire_soc_no_cache/bsp/efinix/EfxSapphireSoc/openocd/sapphire_soc_xsvd.json"/>
+<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.targetRegFile" value="/home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/bsp/efinix/EfxSapphireSoc/openocd/sapphire_soc_32bit-reg.xml"/>
+<stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.svdPath" value="/home/manoj/Documents/works/efinity_1/embedded_sw/sapphire_soc_no_cache/bsp/efinix/EfxSapphireSoc/openocd/sapphire_soc_xsvd.json"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.gdbServerTclPortNumber" value="6666"/>
 <intAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.gdbServerTelnetPortNumber" value="4444"/>
 <stringAttribute key="ilg.gnumcueclipse.debug.gdbjtag.openocd.otherInitCommands" value=""/>

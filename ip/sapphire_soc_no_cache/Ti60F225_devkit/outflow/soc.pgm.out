@@ -24,8 +24,8 @@ HEX Generation Options Summary:
 	jtag_usercode                            = 0xFFFFFFFF
 	io_weak_pullup                           = on
 Finished generating "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.hex"
-Efinity Bitstream Generator took 3.40401 seconds.
-	Efinity Bitstream Generator took 3.3 seconds (approximately) in total CPU time.
+Efinity Bitstream Generator took 3.4227 seconds.
+	Efinity Bitstream Generator took 3.34 seconds (approximately) in total CPU time.
 Efinity Bitstream Generator virtual memory usage: begin = 57.684 MB, end = 173.028 MB, delta = 115.344 MB
-Efinity Bitstream Generator resident set memory usage: begin = 9.364 MB, end = 128.724 MB, delta = 119.36 MB
-	Efinity Bitstream Generator peak resident set memory usage = 871.296 MB
+Efinity Bitstream Generator resident set memory usage: begin = 9.22 MB, end = 128.92 MB, delta = 119.7 MB
+	Efinity Bitstream Generator peak resident set memory usage = 1886.16 MB

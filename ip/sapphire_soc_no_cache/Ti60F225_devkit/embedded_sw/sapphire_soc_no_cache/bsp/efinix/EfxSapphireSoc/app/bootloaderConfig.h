@@ -32,7 +32,7 @@
 
 #define USER_SOFTWARE_MEMORY 0xF9000000
 #define USER_SOFTWARE_FLASH  0x00380000
-#define USER_SOFTWARE_SIZE   0xfc00
+#define USER_SOFTWARE_SIZE   0x2fc00
 
 
 void bspMain() {

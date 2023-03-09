@@ -18,6 +18,8 @@
 `timescale 1ns / 1ps
 
 module top_soc (
+output		system_uart_0_io_txd,
+input		system_uart_0_io_rxd,
 output		system_spi_0_io_sclk_write,
 output		system_spi_0_io_data_0_writeEnable,
 input		system_spi_0_io_data_0_read,
@@ -26,17 +28,15 @@ output		system_spi_0_io_data_1_writeEnable,
 input		system_spi_0_io_data_1_read,
 output		system_spi_0_io_data_1_write,
 output		system_spi_0_io_ss,
+input [3:0] system_gpio_0_io_read,
+output [3:0] system_gpio_0_io_write,
+output [3:0] system_gpio_0_io_writeEnable,
 input		jtag_inst1_TCK,
 input		jtag_inst1_TDI,
 output		jtag_inst1_TDO,
 input		jtag_inst1_SEL,
 input		jtag_inst1_CAPTURE,
 input		jtag_inst1_SHIFT,
-input [3:0] system_gpio_0_io_read,
-output [3:0] system_gpio_0_io_write,
-output [3:0] system_gpio_0_io_writeEnable,
-output		system_uart_0_io_txd,
-input		system_uart_0_io_rxd,
 
 output      memoryCheckerPass,
 output      systemClk_rstn,
@@ -52,6 +52,15 @@ wire 		reset;
 wire		io_systemReset;
 wire 	    io_memoryReset;				
 wire [1:0]  io_ddrA_b_payload_resp=2'b00;
+wire [15:0] io_apbSlave_0_PADDR;
+wire		io_apbSlave_0_PSEL;
+wire		io_apbSlave_0_PENABLE;
+wire		io_apbSlave_0_PREADY;
+wire		io_apbSlave_0_PWRITE;
+wire [31:0] io_apbSlave_0_PWDATA;
+wire [31:0] io_apbSlave_0_PRDATA;
+wire		io_apbSlave_0_PSLVERROR;
+wire userInterrupt_0;
 wire axi4Interrupt;
 wire [7:0] axi_awid;
 wire [31:0]	axi_awaddr;
@@ -92,15 +101,6 @@ wire [1:0]	axi_rresp;
 wire		axi_rlast;
 wire		axi_rvalid;
 wire		axi_rready;
-wire userInterrupt_0;
-wire [15:0] io_apbSlave_0_PADDR;
-wire		io_apbSlave_0_PSEL;
-wire		io_apbSlave_0_PENABLE;
-wire		io_apbSlave_0_PREADY;
-wire		io_apbSlave_0_PWRITE;
-wire [31:0] io_apbSlave_0_PWDATA;
-wire [31:0] io_apbSlave_0_PRDATA;
-wire		io_apbSlave_0_PSLVERROR;
 
 
 /////////////////////////////////////////////////////////////////////////////
@@ -112,15 +112,6 @@ assign baseClk_pll_rstn = 1'b1;
 
 
 /////////////////////////////////////////////////////////////////////////////
-timer_start #(
-.MHZ(100),
-.SECOND(10),
-.PULSE(1)
-) intr_s0 (
-.clk(io_systemClk),
-.rst_n(~io_systemReset),
-.start(userInterrupt_0));
-
 axi4_slave #(
 .ADDR_WIDTH(32),
 .DATA_WIDTH(32)
@@ -168,6 +159,15 @@ axi4_slave #(
 .axi_rvalid(axi_rvalid),
 .axi_rready(axi_rready));
 
+timer_start #(
+.MHZ(100),
+.SECOND(10),
+.PULSE(1)
+) intr_s0 (
+.clk(io_systemClk),
+.rst_n(~io_systemReset),
+.start(userInterrupt_0));
+
 apb3_slave #(
 .ADDR_WIDTH(16)) apb_slave_0 (
 .clk(io_systemClk),
@@ -187,40 +187,6 @@ apb3_slave #(
 
 sapphire_soc_no_cache soc_inst
 (
-.userInterruptA(userInterrupt_0),
-.system_spi_0_io_sclk_write(system_spi_0_io_sclk_write),
-.system_spi_0_io_data_0_writeEnable(system_spi_0_io_data_0_writeEnable),
-.system_spi_0_io_data_0_read(system_spi_0_io_data_0_read),
-.system_spi_0_io_data_0_write(system_spi_0_io_data_0_write),
-.system_spi_0_io_data_1_writeEnable(system_spi_0_io_data_1_writeEnable),
-.system_spi_0_io_data_1_read(system_spi_0_io_data_1_read),
-.system_spi_0_io_data_1_write(system_spi_0_io_data_1_write),
-.system_spi_0_io_data_2_writeEnable(),
-.system_spi_0_io_data_2_read(),
-.system_spi_0_io_data_2_write(),
-.system_spi_0_io_data_3_writeEnable(),
-.system_spi_0_io_data_3_read(),
-.system_spi_0_io_data_3_write(),
-.system_spi_0_io_ss(system_spi_0_io_ss),
-.io_apbSlave_0_PADDR(io_apbSlave_0_PADDR),
-.io_apbSlave_0_PSEL(io_apbSlave_0_PSEL),
-.io_apbSlave_0_PENABLE(io_apbSlave_0_PENABLE),
-.io_apbSlave_0_PREADY(io_apbSlave_0_PREADY),
-.io_apbSlave_0_PWRITE(io_apbSlave_0_PWRITE),
-.io_apbSlave_0_PWDATA(io_apbSlave_0_PWDATA),
-.io_apbSlave_0_PRDATA(io_apbSlave_0_PRDATA),
-.io_apbSlave_0_PSLVERROR(io_apbSlave_0_PSLVERROR),
-.system_gpio_0_io_read(system_gpio_0_io_read),
-.system_gpio_0_io_write(system_gpio_0_io_write),
-.system_gpio_0_io_writeEnable(system_gpio_0_io_writeEnable),
-.jtagCtrl_tck(jtag_inst1_TCK),
-.jtagCtrl_tdi(jtag_inst1_TDI),
-.jtagCtrl_tdo(jtag_inst1_TDO),
-.jtagCtrl_enable(jtag_inst1_SEL),
-.jtagCtrl_capture(jtag_inst1_CAPTURE),
-.jtagCtrl_shift(jtag_inst1_SHIFT),
-.jtagCtrl_update(),
-.jtagCtrl_reset(),
 .axiA_awvalid(axi_awvalid),
 .axiA_awready(axi_awready),
 .axiA_awaddr(axi_awaddr),
@@ -261,8 +227,42 @@ sapphire_soc_no_cache soc_inst
 .axiA_rresp(axi_rresp),
 .axiA_rlast(axi_rlast),
 .axiAInterrupt(axi4Interrupt),
+.jtagCtrl_tck(jtag_inst1_TCK),
+.jtagCtrl_tdi(jtag_inst1_TDI),
+.jtagCtrl_tdo(jtag_inst1_TDO),
+.jtagCtrl_enable(jtag_inst1_SEL),
+.jtagCtrl_capture(jtag_inst1_CAPTURE),
+.jtagCtrl_shift(jtag_inst1_SHIFT),
+.jtagCtrl_update(),
+.jtagCtrl_reset(),
+.system_gpio_0_io_read(system_gpio_0_io_read),
+.system_gpio_0_io_write(system_gpio_0_io_write),
+.system_gpio_0_io_writeEnable(system_gpio_0_io_writeEnable),
 .system_uart_0_io_txd(system_uart_0_io_txd),
 .system_uart_0_io_rxd(system_uart_0_io_rxd),
+.system_spi_0_io_sclk_write(system_spi_0_io_sclk_write),
+.system_spi_0_io_data_0_writeEnable(system_spi_0_io_data_0_writeEnable),
+.system_spi_0_io_data_0_read(system_spi_0_io_data_0_read),
+.system_spi_0_io_data_0_write(system_spi_0_io_data_0_write),
+.system_spi_0_io_data_1_writeEnable(system_spi_0_io_data_1_writeEnable),
+.system_spi_0_io_data_1_read(system_spi_0_io_data_1_read),
+.system_spi_0_io_data_1_write(system_spi_0_io_data_1_write),
+.system_spi_0_io_data_2_writeEnable(),
+.system_spi_0_io_data_2_read(),
+.system_spi_0_io_data_2_write(),
+.system_spi_0_io_data_3_writeEnable(),
+.system_spi_0_io_data_3_read(),
+.system_spi_0_io_data_3_write(),
+.system_spi_0_io_ss(system_spi_0_io_ss),
+.io_apbSlave_0_PADDR(io_apbSlave_0_PADDR),
+.io_apbSlave_0_PSEL(io_apbSlave_0_PSEL),
+.io_apbSlave_0_PENABLE(io_apbSlave_0_PENABLE),
+.io_apbSlave_0_PREADY(io_apbSlave_0_PREADY),
+.io_apbSlave_0_PWRITE(io_apbSlave_0_PWRITE),
+.io_apbSlave_0_PWDATA(io_apbSlave_0_PWDATA),
+.io_apbSlave_0_PRDATA(io_apbSlave_0_PRDATA),
+.io_apbSlave_0_PSLVERROR(io_apbSlave_0_PSLVERROR),
+.userInterruptA(userInterrupt_0),
 
 .io_systemClk(io_systemClk),
 .io_asyncReset(reset),

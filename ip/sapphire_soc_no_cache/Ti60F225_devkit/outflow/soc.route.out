@@ -23,67 +23,67 @@ Router Setup
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Route Circuit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Iter  1: overlap=13806   heapops=2566252    (0%) cpd=3666  msec=2616
-Iter  2: overlap=1701    heapops=1765841    (54%) cpd=4884  msec=821
-Iter  3: overlap=269     heapops=852093     (87%) cpd=5291  msec=566
-Iter  4: overlap=23      heapops=426380     (97%) cpd=5291  msec=485
-Iter  5: overlap=0       heapops=47974      (100%) cpd=5291  msec=328
+Iter  1: overlap=14852   heapops=2812738    (0%) cpd=3746  msec=3422
+Iter  2: overlap=1761    heapops=2819335    (52%) cpd=6302  msec=1776
+Iter  3: overlap=298     heapops=982089     (88%) cpd=5590  msec=715
+Iter  4: overlap=23      heapops=551237     (96%) cpd=5590  msec=634
+Iter  5: overlap=0       heapops=150465     (100%) cpd=5590  msec=501
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Routing Result
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Routing Succeeded in 5.05 seconds taking 5 iterations! 
+Routing Succeeded in 7.36 seconds taking 5 iterations! 
 
-First iteration critical path delay = 3.666 ns 
-Last iteration critical path delay  = 5.291 ns (ratio = 1.44)
+First iteration critical path delay = 3.746 ns 
+Last iteration critical path delay  = 5.590 ns (ratio = 1.49)
 Routing trace written to file '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.troutingtraces' 
-Routing took 6.60216 seconds.
-	Routing took 7.06 seconds (approximately) in total CPU time.
-Routing virtual memory usage: begin = 2030.63 MB, end = 2874.07 MB, delta = 843.436 MB
-Routing resident set memory usage: begin = 1015.27 MB, end = 1202.25 MB, delta = 186.984 MB
-	Routing peak resident set memory usage = 1202.25 MB
+Routing took 9.05763 seconds.
+	Routing took 9.55 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 2118.55 MB, end = 2963.5 MB, delta = 844.948 MB
+Routing resident set memory usage: begin = 1113.41 MB, end = 1295.7 MB, delta = 182.292 MB
+	Routing peak resident set memory usage = 1885.9 MB
 ***** Ending stage routing *****
 
 ***** Beginning stage final timing analysis ... *****
 Maximum possible analyzed clocks frequency
   Clock Name   Period (ns)  Frequency (MHz)     Edge
-io_systemClk      5.401        185.151         (R-R)
-jtag_inst1_TCK    4.377        228.467         (R-R)
+io_systemClk      5.700        175.439         (R-R)
+jtag_inst1_TCK    4.280        233.645         (R-R)
 
-Geomean max period: 4.862
+Geomean max period: 4.939
 
 Setup (Max) Clock Relationship
   Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
- io_systemClk     io_systemClk         10.000            4.599           (R-R)
- jtag_inst1_TCK   jtag_inst1_TCK      100.000           95.623           (R-R)
- jtag_inst1_TCK   jtag_inst1_TCK       50.000           49.865           (F-R)
+ io_systemClk     io_systemClk         10.000            4.300           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK      100.000           95.720           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK       50.000           48.506           (F-R)
 
 Hold (Min) Clock Relationship
   Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
- io_systemClk     io_systemClk          0.000            0.026           (R-R)
- jtag_inst1_TCK   jtag_inst1_TCK        0.000            0.097           (R-R)
- jtag_inst1_TCK   jtag_inst1_TCK      -50.000           48.873           (F-R)
+ io_systemClk     io_systemClk          0.000            0.028           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK        0.000            0.099           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK      -50.000           48.854           (F-R)
 
 Write Timing Report to "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.timing.rpt" ...
-final timing analysis took 0.449253 seconds.
-	final timing analysis took 0.44 seconds (approximately) in total CPU time.
-final timing analysis virtual memory usage: begin = 2874.07 MB, end = 2874.07 MB, delta = 0 MB
-final timing analysis resident set memory usage: begin = 1202.25 MB, end = 1203.01 MB, delta = 0.76 MB
-	final timing analysis peak resident set memory usage = 1203.01 MB
+final timing analysis took 0.542997 seconds.
+	final timing analysis took 0.54 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 2963.5 MB, end = 2963.5 MB, delta = 0 MB
+final timing analysis resident set memory usage: begin = 1295.7 MB, end = 1295.7 MB, delta = 0 MB
+	final timing analysis peak resident set memory usage = 1885.9 MB
 ***** Ending stage final timing analysis *****
 
 ***** Beginning stage bitstream generation ... *****
 Reading core interface constraints from '/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.csv'.
 Successfully processed interface constraints file "/media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/outflow/soc.interface.csv".
 Finished writing bitstream file /media/manoj/5121/prj/efinity_1_copy/efinity_1/ip/sapphire_soc_no_cache/Ti60F225_devkit/work_pnr/soc.lbf.
-Bitstream generation took 3.42873 seconds.
-	Bitstream generation took 3.39 seconds (approximately) in total CPU time.
-Bitstream generation virtual memory usage: begin = 2874.07 MB, end = 2818.7 MB, delta = -55.368 MB
-Bitstream generation resident set memory usage: begin = 1203.01 MB, end = 1149.98 MB, delta = -53.032 MB
-	Bitstream generation peak resident set memory usage = 1205.06 MB
+Bitstream generation took 3.53046 seconds.
+	Bitstream generation took 3.49 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 2963.5 MB, end = 2908.13 MB, delta = -55.368 MB
+Bitstream generation resident set memory usage: begin = 1295.7 MB, end = 1241.96 MB, delta = -53.736 MB
+	Bitstream generation peak resident set memory usage = 1885.9 MB
 ***** Ending stage bitstream generation *****
 
-The entire flow of EFX_PNR took 32.8583 seconds.
-	The entire flow of EFX_PNR took 57 seconds (approximately) in total CPU time.
-The entire flow of EFX_PNR virtual memory usage: begin = 155.108 MB, end = 2813.36 MB, delta = 2658.25 MB
-The entire flow of EFX_PNR resident set memory usage: begin = 27.452 MB, end = 1144.64 MB, delta = 1117.19 MB
-	The entire flow of EFX_PNR peak resident set memory usage = 1205.06 MB
+The entire flow of EFX_PNR took 36.6715 seconds.
+	The entire flow of EFX_PNR took 65.34 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 155.108 MB, end = 2905.1 MB, delta = 2749.99 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 27.468 MB, end = 1238.99 MB, delta = 1211.52 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 1885.9 MB

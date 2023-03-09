@@ -7,16 +7,16 @@ Regional Clocks (RBUF): 0 / 32 (0.00%)
 	RBUF: Core: 0 / 16 (0.00%)
 	RBUF: Periphery: 0 / 8 (0.00%)
 	RBUF: Multi-Region: 0 / 8 (0.00%)
-XLRs: 6180 / 60800 (10.16%)
-	XLRs needed for Logic: 2511 / 60800 (4.13%)
+XLRs: 6330 / 60800 (10.41%)
+	XLRs needed for Logic: 2601 / 60800 (4.28%)
 	XLRs needed for Logic + FF: 1363 / 60800 (2.24%)
 	XLRs needed for Adder: 326 / 60800 (0.54%)
 	XLRs needed for Adder + FF: 350 / 60800 (0.58%)
-	XLRs needed for FF: 1492 / 60800 (2.45%)
+	XLRs needed for FF: 1496 / 60800 (2.46%)
 	XLRs needed for SRL8: 3 / 14720 (0.02%)
 	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
-	XLRs needed for Routing: 135 / 60800 (0.22%)
-Memory Blocks: 76 / 256 (29.69%)
+	XLRs needed for Routing: 191 / 60800 (0.31%)
+Memory Blocks: 204 / 256 (79.69%)
 DSP Blocks: 4 / 160 (2.50%)
 ---------- Resource Summary (end) ----------
 
@@ -39,16 +39,48 @@ Regional Clocks (RBUF): 0 / 32 (0.00%)
 	RBUF: Core: 0 / 16 (0.00%)
 	RBUF: Periphery: 0 / 8 (0.00%)
 	RBUF: Multi-Region: 0 / 8 (0.00%)
-XLRs: 6180 / 60800 (10.16%)
-	XLRs needed for Logic: 2511 / 60800 (4.13%)
+XLRs: 6330 / 60800 (10.41%)
+	XLRs needed for Logic: 2601 / 60800 (4.28%)
 	XLRs needed for Logic + FF: 1363 / 60800 (2.24%)
 	XLRs needed for Adder: 326 / 60800 (0.54%)
 	XLRs needed for Adder + FF: 350 / 60800 (0.58%)
-	XLRs needed for FF: 1492 / 60800 (2.45%)
+	XLRs needed for FF: 1496 / 60800 (2.46%)
 	XLRs needed for SRL8: 3 / 14720 (0.02%)
 	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
-	XLRs needed for Routing: 135 / 60800 (0.22%)
-Memory Blocks: 76 / 256 (29.69%)
+	XLRs needed for Routing: 191 / 60800 (0.31%)
+Memory Blocks: 204 / 256 (79.69%)
+DSP Blocks: 4 / 160 (2.50%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Packer Summary (begin) ----------
+
+	DSP48 blocks required to legally pack design: 4
+	DSP48 blocks recoverable by optimizing:
+		-> DSP24/12 control signals & parameters: 0
+	Best case scenario DSP count after optimizing: 4
+
+---------- DSP Packer Summary (end) ----------
+
+
+---------- Resource Summary (begin) ----------
+Inputs: 17 / 1703 (1.00%)
+Outputs: 28 / 2267 (1.24%)
+Global Clocks (GBUF): 4 / 32 (12.50%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 6330 / 60800 (10.41%)
+	XLRs needed for Logic: 2601 / 60800 (4.28%)
+	XLRs needed for Logic + FF: 1363 / 60800 (2.24%)
+	XLRs needed for Adder: 326 / 60800 (0.54%)
+	XLRs needed for Adder + FF: 350 / 60800 (0.58%)
+	XLRs needed for FF: 1496 / 60800 (2.46%)
+	XLRs needed for SRL8: 3 / 14720 (0.02%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 191 / 60800 (0.31%)
+Memory Blocks: 204 / 256 (79.69%)
 DSP Blocks: 4 / 160 (2.50%)
 ---------- Resource Summary (end) ----------
 

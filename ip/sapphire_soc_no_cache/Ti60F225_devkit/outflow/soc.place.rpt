@@ -1,7 +1,7 @@
 
 Efinix FPGA Placement and Routing.
 Version: 2022.M.288 
-Date: Tue Jan 10 18:12:02 2023
+Date: Tue Mar  7 02:31:23 2023
 
 Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
  
@@ -18,16 +18,16 @@ Regional Clocks (RBUF): 0 / 32 (0.00%)
 	RBUF: Core: 0 / 16 (0.00%)
 	RBUF: Periphery: 0 / 8 (0.00%)
 	RBUF: Multi-Region: 0 / 8 (0.00%)
-XLRs: 6180 / 60800 (10.16%)
-	XLRs needed for Logic: 2511 / 60800 (4.13%)
+XLRs: 6330 / 60800 (10.41%)
+	XLRs needed for Logic: 2601 / 60800 (4.28%)
 	XLRs needed for Logic + FF: 1363 / 60800 (2.24%)
 	XLRs needed for Adder: 326 / 60800 (0.54%)
 	XLRs needed for Adder + FF: 350 / 60800 (0.58%)
-	XLRs needed for FF: 1492 / 60800 (2.45%)
+	XLRs needed for FF: 1496 / 60800 (2.46%)
 	XLRs needed for SRL8: 3 / 14720 (0.02%)
 	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
-	XLRs needed for Routing: 135 / 60800 (0.22%)
-Memory Blocks: 76 / 256 (29.69%)
+	XLRs needed for Routing: 191 / 60800 (0.31%)
+Memory Blocks: 204 / 256 (79.69%)
 DSP Blocks: 4 / 160 (2.50%)
 ---------- Resource Summary (end) ----------
 
@@ -69,70 +69,198 @@ DSP Blocks: 4 / 160 (2.50%)
 |                   soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/RegFilePlugin_regFile__D$1                   | SDP  |     16     |     16      | READ_FIRST |   false    |
 |                  soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/RegFilePlugin_regFile_2__D$2                  | SDP  |     16     |     16      | READ_FIRST |   false    |
 |                   soc_inst/u_EfxSapphireSoc/system_cores_0_logic_cpu/RegFilePlugin_regFile__D$2                   | SDP  |     16     |     16      | READ_FIRST |   false    |
-|                           soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$02                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                           soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$02                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                           soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$02                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                           soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$02                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$012                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                           soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$32                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0g1                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$312                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3g1                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$012                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                           soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$32                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0g1                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$312                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3g1                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$012                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                           soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$32                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0g1                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$312                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3g1                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$012                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                           soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$32                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0g1                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$312                           | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
-|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3g1                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$c02                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0302                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b03b12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$c0b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$c012                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b032                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$c0c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$c0d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$c0e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$c0f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$c0g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b0312                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b03c12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b03d12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b03e12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b03f12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b03g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$302                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0b3b12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$030b12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$03012                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0b32                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$030c12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$030d12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$030e12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$030f12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$030g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0b312                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0b3c12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0b3d12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0b3e12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0b3f12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$0b3g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$c02                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b3b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$30b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$3012                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b32                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$30c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$30d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$30e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$30f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$30g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b312                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b3c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b3d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b3e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b3f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol0__D$b3g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0302                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b03b12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$c0b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$c012                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b032                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$c0c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$c0d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$c0e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$c0f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$c0g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b0312                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b03c12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b03d12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b03e12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b03f12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b03g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$302                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0b3b12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$030b12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$03012                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0b32                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$030c12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$030d12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$030e12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$030f12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$030g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0b312                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0b3c12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0b3d12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0b3e12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0b3f12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$0b3g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$c02                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b3b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$30b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$3012                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b32                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$30c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$30d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$30e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$30f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$30g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b312                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b3c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b3d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b3e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b3f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol1__D$b3g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0302                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b03b12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$c0b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$c012                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b032                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$c0c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$c0d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$c0e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$c0f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$c0g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b0312                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b03c12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b03d12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b03e12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b03f12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b03g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$302                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0b3b12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$030b12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$03012                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0b32                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$030c12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$030d12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$030e12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$030f12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$030g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0b312                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0b3c12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0b3d12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0b3e12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0b3f12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0b3g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$c02                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b3b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$30b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$3012                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b32                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$30c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$30d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$30e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$30f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$30g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b312                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b3c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b3d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b3e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b3f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b3g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0302                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b03b12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$c0b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$c012                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b032                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$c0c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$c0d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$c0e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$c0f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$c0g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b0312                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b03c12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b03d12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b03e12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b03f12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b03g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$302                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0b3b12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$030b12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$03012                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0b32                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$030c12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$030d12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$030e12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$030f12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$030g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0b312                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0b3c12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0b3d12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0b3e12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0b3f12                         | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$0b3g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b3b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$30b12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$3012                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b32                           | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$30c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$30d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$30e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$30f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$30g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b312                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b3c12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b3d12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b3e12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                         soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b3f12                          | SDP  |     1      |      1      | READ_FIRST |   false    |
+|                          soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol3__D$b3g1                          | SDP  |     1      |      1      | READ_FIRST |   false    |
 |    soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/bridge_write_streamUnbuffered_queueWithOccupancy/logic_ram    | SDP  |     8      |      8      | READ_FIRST |   false    |
 |         soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_queueWithOccupancy/logic_ram          | SDP  |     8      |      8      | READ_FIRST |   false    |
 | soc_inst/u_EfxSapphireSoc/system_spi_0_io_logic/mapping_cmdLogic_streamUnbuffered_queueWithAvailability/logic_ram | SDP  |     16     |     16      | READ_FIRST |   false    |
@@ -141,4 +269,4 @@ DSP Blocks: 4 / 160 (2.50%)
 
 ----------- Simple Dual Port RAM Information (end) ----------
 
-Elapsed time for placement: 0 hours 0 minutes 14 seconds
+Elapsed time for placement: 0 hours 0 minutes 15 seconds

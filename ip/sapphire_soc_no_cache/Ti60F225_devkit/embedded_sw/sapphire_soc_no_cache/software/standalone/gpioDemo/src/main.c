@@ -125,10 +125,7 @@ void main() {
     bsp_printf("Ti60 press and release onboard button sw6 \r\n");
     bsp_printf("T120 press and release onboard button sw7 \r\n");
     init();
-    while(1) {
-        gpio_setOutput(GPIO0, gpio_getOutput(GPIO0) ^ 0xe);
-        bsp_uDelay(LOOP_UDELAY);
-    }
+    while(1); 
 }
 #else
 void main() {

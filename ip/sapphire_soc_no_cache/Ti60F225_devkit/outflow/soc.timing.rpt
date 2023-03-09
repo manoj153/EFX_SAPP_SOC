@@ -1,7 +1,7 @@
 
 Efinix Static Timing Analysis Report
 Version: 2022.M.288
-Date: Tue Jan 10 18:12:29 2023
+Date: Tue Mar  7 02:31:53 2023
 
 Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
 
@@ -33,10 +33,10 @@ jtag_inst1_TCK   100.000         10.000     {0.000 50.000}  jtag_inst1_TCK
 
 Maximum possible analyzed clocks frequency
   Clock Name   Period (ns)  Frequency (MHz)     Edge
-io_systemClk      5.401        185.151         (R-R)
-jtag_inst1_TCK    4.377        228.467         (R-R)
+io_systemClk      5.700        175.439         (R-R)
+jtag_inst1_TCK    4.280        233.645         (R-R)
 
-Geomean max period: 4.862
+Geomean max period: 4.939
 
 ---------- Clock Frequency Summary (end) ---------------
 
@@ -44,15 +44,15 @@ Geomean max period: 4.862
 
 Setup (Max) Clock Relationship
   Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
- io_systemClk     io_systemClk         10.000            4.599           (R-R)
- jtag_inst1_TCK   jtag_inst1_TCK      100.000           95.623           (R-R)
- jtag_inst1_TCK   jtag_inst1_TCK       50.000           49.865           (F-R)
+ io_systemClk     io_systemClk         10.000            4.300           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK      100.000           95.720           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK       50.000           48.506           (F-R)
 
 Hold (Min) Clock Relationship
   Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
- io_systemClk     io_systemClk          0.000            0.026           (R-R)
- jtag_inst1_TCK   jtag_inst1_TCK        0.000            0.097           (R-R)
- jtag_inst1_TCK   jtag_inst1_TCK      -50.000           48.873           (F-R)
+ io_systemClk     io_systemClk          0.000            0.028           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK        0.000            0.099           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK      -50.000           48.854           (F-R)
 
 NOTE: Values are in nanoseconds.
 
@@ -67,21 +67,21 @@ Path Detail Report (io_systemClk vs io_systemClk)
 
 ++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Path Begin    : soc_inst/u_EfxSapphireSoc/system_bridge_bmb_arbiter/memory_arbiter/locked~FF|CLK
-Path End      : soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0f12|RE              
-Launch Clock  : io_systemClk (RISE)                                                             
-Capture Clock : io_systemClk (RISE)                                                             
-Slack         : 4.599 (required time - arrival time)                                            
-Delay         : 5.104                                                                           
+Path Begin    : soc_inst/u_EfxSapphireSoc/system_cores_0_dBus_cmd_s2mPipe_rValid~FF|CLK
+Path End      : soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b32|RADDR[0]
+Launch Clock  : io_systemClk (RISE)                                                    
+Capture Clock : io_systemClk (RISE)                                                    
+Slack         : 4.300 (required time - arrival time)                                   
+Delay         : 5.449                                                                  
 
-Logic Level             : 7
-Non-global nets on path : 8
+Logic Level             : 2
+Non-global nets on path : 3
 Global nets on path     : 0
 
 Launch Clock Path Delay        : 1.865
-+ Clock To Q + Data Path Delay : 5.291
++ Clock To Q + Data Path Delay : 5.590
 --------------------------------------
-End-of-path arrival time       : 7.156
+End-of-path arrival time       : 7.455
 
 Constraint                     : 10.000
 + Capture Clock Path Delay     :  1.865
@@ -90,68 +90,43 @@ Constraint                     : 10.000
 End-of-path required time      : 11.755
 
 Launch Clock Path
-                                      name                                        model name   delay (ns)  cumulative delay (ns) pins on net    location
-==========================================================================================================================================================
-io_systemClk                                                                        inpad        0.000             0.000                0      (219,159)
-io_systemClk                                                                        inpad        0.110             0.110             3328      (219,159)
-io_systemClk                                                                        net          1.755             1.865             3328      (219,159)
+                                 name                                    model name   delay (ns)  cumulative delay (ns) pins on net    location
+=================================================================================================================================================
+io_systemClk                                                               inpad        0.000             0.000                0      (219,159)
+io_systemClk                                                               inpad        0.110             0.110             3588      (219,159)
+io_systemClk                                                               net          1.755             1.865             3588      (219,159)
    Routing elements:
-      Manhattan distance of X:127, Y:70
-soc_inst/u_EfxSapphireSoc/system_bridge_bmb_arbiter/memory_arbiter/locked~FF|CLK    ff           0.000             1.865             3328      (92,89)  
+      Manhattan distance of X:160, Y:35
+soc_inst/u_EfxSapphireSoc/system_cores_0_dBus_cmd_s2mPipe_rValid~FF|CLK    ff           0.000             1.865             3588      (59,124) 
 
 Data Path
-                                              name                                                 model name   delay (ns)  cumulative delay (ns) pins on net    location
-===========================================================================================================================================================================
-soc_inst/u_EfxSapphireSoc/system_bridge_bmb_arbiter/memory_arbiter/locked~FF|Q                    ff              0.113             0.113               3       (92,89)  
-soc_inst/u_EfxSapphireSoc/system_bridge_bmb_arbiter/memory_arbiter/locked                         net             0.161             0.274               3       (92,89)  
+                                              name                                                model name   delay (ns)  cumulative delay (ns) pins on net    location
+==========================================================================================================================================================================
+soc_inst/u_EfxSapphireSoc/system_cores_0_dBus_cmd_s2mPipe_rValid~FF|Q                            ff              0.113             0.113               6        (59,124)
+soc_inst/u_EfxSapphireSoc/system_cores_0_dBus_cmd_s2mPipe_rValid                                 net             0.163             0.276               6        (59,124)
    Routing elements:
-      Manhattan distance of X:0, Y:7
-LUT__19285|in[2]                                                                                  lut             0.054             0.328               3       (92,96)  
-LUT__19285|out                                                                                    lut             0.000             0.328              78       (92,96)  
-soc_inst/u_EfxSapphireSoc/system_bridge_bmb_arbiter/memory_arbiter_io_chosenOH[0]                 net             0.939             1.267              77       (92,96)  
+      Manhattan distance of X:0, Y:5
+LUT__23282|in[0]                                                                                 lut             0.054             0.330               6        (59,119)
+LUT__23282|out                                                                                   lut             0.000             0.330              76        (59,119)
+soc_inst/u_EfxSapphireSoc/system_bridge_bmb_arbiter/memory_arbiter_io_chosenOH[0]                net             0.717             1.047              75        (59,119)
    Routing elements:
-      Manhattan distance of X:0, Y:69
-LUT__19290|in[2]                                                                                  lut             0.054             1.321              78       (92,165) 
-LUT__19290|out                                                                                    lut             0.000             1.321               3       (92,165) 
-soc_inst/u_EfxSapphireSoc/system_bridge_bmb_decoder_io_outputs_2_cmd_payload_fragment_address[27] net             0.272             1.593               3       (92,165) 
+      Manhattan distance of X:49, Y:37
+LUT__25553|in[2]                                                                                 lut             0.055             1.102              76        (108,82)
+LUT__25553|out                                                                                   lut             0.000             1.102             388        (108,82)
+soc_inst/u_EfxSapphireSoc/system_bridge_bmb_decoder_io_outputs_2_cmd_payload_fragment_address[7] net             4.460             5.562             387        (108,82)
    Routing elements:
-      Manhattan distance of X:1, Y:0
-LUT__19291|in[2]                                                                                  lut             0.055             1.648               3       (93,165) 
-LUT__19291|out                                                                                    lut             0.000             1.648               2       (93,165) 
-n13280                                                                                            net             0.053             1.701               2       (93,165) 
-   Routing elements:
-      Manhattan distance of X:0, Y:1
-LUT__19297|in[0]                                                                                  lut             0.055             1.756               2       (93,164) 
-LUT__19297|out                                                                                    lut             0.000             1.756               6       (93,164) 
-n13282                                                                                            net             0.916             2.672               6       (93,164) 
-   Routing elements:
-      Manhattan distance of X:2, Y:95
-LUT__19310|in[2]                                                                                  lut             0.054             2.726               6       (91,69)  
-LUT__19310|out                                                                                    lut             0.000             2.726               2       (91,69)  
-n13294                                                                                            net             0.343             3.069               2       (91,69)  
-   Routing elements:
-      Manhattan distance of X:5, Y:10
-LUT__19314|in[0]                                                                                  lut             0.054             3.123               2       (86,59)  
-LUT__19314|out                                                                                    lut             0.000             3.123              25       (86,59)  
-n13298                                                                                            net             0.648             3.771              25       (86,59)  
-   Routing elements:
-      Manhattan distance of X:6, Y:15
-LUT__21471|in[0]                                                                                  lut             0.054             3.825              25       (92,74)  
-LUT__21471|out                                                                                    lut             0.000             3.825              33       (92,74)  
-n2000                                                                                             net             1.392             5.217              33       (92,74)  
-   Routing elements:
-      Manhattan distance of X:25, Y:28
-soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0f12|RE                                ram_8192x20     0.074             5.291              33       (117,102)
+      Manhattan distance of X:24, Y:0
+soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b32|RADDR[0]                          ram_8192x20     0.028             5.590             388        (132,82)
 
 Capture Clock Path
-                                name                                  model name   delay (ns)  cumulative delay (ns) pins on net    location
-==============================================================================================================================================
-io_systemClk                                                         inpad           0.000             0.000                0      (219,159)
-io_systemClk                                                         inpad           0.110             0.110             3328      (219,159)
-io_systemClk                                                         net             1.755             1.865             3328      (219,159)
+                               name                                  model name   delay (ns)  cumulative delay (ns) pins on net    location
+=============================================================================================================================================
+io_systemClk                                                        inpad           0.000             0.000                0      (219,159)
+io_systemClk                                                        inpad           0.110             0.110             3588      (219,159)
+io_systemClk                                                        net             1.755             1.865             3588      (219,159)
    Routing elements:
-      Manhattan distance of X:102, Y:57
-soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$0f12|RCLK ram_8192x20     0.000             1.865             3328      (117,102)
+      Manhattan distance of X:87, Y:77
+soc_inst/u_EfxSapphireSoc/system_ramA_logic/ram_symbol2__D$b32|RCLK ram_8192x20     0.000             1.865             3588      (132,82) 
 
 ################################################################################
 Path Detail Report (jtag_inst1_TCK vs jtag_inst1_TCK)
@@ -160,21 +135,21 @@ Path Detail Report (jtag_inst1_TCK vs jtag_inst1_TCK)
 
 ++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Path Begin    : soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_header[0]~FF|CLK
-Path End      : jtag_inst1_TDO                                                                                
-Launch Clock  : jtag_inst1_TCK (RISE)                                                                         
-Capture Clock : jtag_inst1_TCK (RISE)                                                                         
-Slack         : 95.623 (required time - arrival time)                                                         
-Delay         : 1.329                                                                                         
+Path Begin    : soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_header[1]_2~FF|CLK
+Path End      : jtag_inst1_TDO                                                                                  
+Launch Clock  : jtag_inst1_TCK (RISE)                                                                           
+Capture Clock : jtag_inst1_TCK (RISE)                                                                           
+Slack         : 95.720 (required time - arrival time)                                                           
+Delay         : 1.232                                                                                           
 
 Logic Level             : 1
 Non-global nets on path : 2
 Global nets on path     : 0
 
 Launch Clock Path Delay        : 2.708
-+ Clock To Q + Data Path Delay : 1.442
++ Clock To Q + Data Path Delay : 1.345
 --------------------------------------
-End-of-path arrival time       : 4.150
+End-of-path arrival time       : 4.053
 
 Constraint                     : 100.000
 + Capture Clock Path Delay     :   0.000
@@ -184,29 +159,29 @@ Constraint                     : 100.000
 End-of-path required time      :  99.773
 
 Launch Clock Path
-                                             name                                               model name   delay (ns)  cumulative delay (ns) pins on net    location
-========================================================================================================================================================================
-jtag_inst1_TCK                                                                                    inpad        0.000             0.000               0        (0,22) 
-jtag_inst1_TCK                                                                                    inpad        0.110             0.110              44        (0,22) 
-jtag_inst1_TCK                                                                                    net          2.598             2.708              44        (0,22) 
+                                              name                                                model name   delay (ns)  cumulative delay (ns) pins on net    location
+==========================================================================================================================================================================
+jtag_inst1_TCK                                                                                      inpad        0.000             0.000               0        (0,22) 
+jtag_inst1_TCK                                                                                      inpad        0.110             0.110              44        (0,22) 
+jtag_inst1_TCK                                                                                      net          2.598             2.708              44        (0,22) 
    Routing elements:
-      Manhattan distance of X:14, Y:55
-soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_header[0]~FF|CLK    ff           0.000             2.708              44        (14,77)
+      Manhattan distance of X:13, Y:71
+soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_header[1]_2~FF|CLK    ff           0.000             2.708              44        (13,93)
 
 Data Path
-                                            name                                              model name   delay (ns)  cumulative delay (ns) pins on net    location
-======================================================================================================================================================================
-soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_header[0]~FF|Q    ff           0.113             0.113              4         (14,77)
-soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_header[0]         net          0.613             0.726              4         (14,77)
+                                             name                                               model name   delay (ns)  cumulative delay (ns) pins on net    location
+========================================================================================================================================================================
+soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_header[1]_2~FF|Q    ff           0.113             0.113              6         (13,93)
+soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_header[1]           net          0.472             0.585              6         (13,93)
    Routing elements:
-      Manhattan distance of X:11, Y:26
-LUT__18525|in[2]                                                                                lut          0.055             0.781              4         (3,103)
-LUT__18525|out                                                                                  lut          0.000             0.781              2         (3,103)
-jtag_inst1_TDO                                                                                  net          0.617             1.398              2         (3,103)
+      Manhattan distance of X:9, Y:3
+LUT__22488|in[0]                                                                                  lut          0.054             0.639              6         (4,96) 
+LUT__22488|out                                                                                    lut          0.000             0.639              2         (4,96) 
+jtag_inst1_TDO                                                                                    net          0.662             1.301              2         (4,96) 
    Routing elements:
-      Manhattan distance of X:3, Y:80
-jtag_inst1_TDO                                                                                  outpad       0.044             1.442              2         (0,23) 
-jtag_inst1_TDO                                                                                  outpad       0.000             1.442              0         (0,23) 
+      Manhattan distance of X:4, Y:73
+jtag_inst1_TDO                                                                                    outpad       0.044             1.345              2         (0,23) 
+jtag_inst1_TDO                                                                                    outpad       0.000             1.345              0         (0,23) 
 
 ################################################################################
 Path Detail Report (jtag_inst1_TCK vs jtag_inst1_TCK)
@@ -215,22 +190,22 @@ Path Detail Report (jtag_inst1_TCK vs jtag_inst1_TCK)
 
 ++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Path Begin    : jtag_inst1_SEL                                                                                     
-Path End      : soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[4]~FF|D
+Path Begin    : jtag_inst1_SHIFT                                                                                   
+Path End      : soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[3]~FF|D
 Launch Clock  : jtag_inst1_TCK (FALL)                                                                              
 Capture Clock : jtag_inst1_TCK (RISE)                                                                              
-Slack         : 49.865 (required time - arrival time)                                                              
-Delay         : 2.487                                                                                              
+Slack         : 48.506 (required time - arrival time)                                                              
+Delay         : 3.752                                                                                              
 
 Logic Level             : 3
 Non-global nets on path : 3
 Global nets on path     : 0
 
 Launch Clock Path Delay        : 0.000
-+ Clock To Q + Data Path Delay : 2.490
-+ Input Delay                  : 0.243
++ Clock To Q + Data Path Delay : 3.755
++ Input Delay                  : 0.337
 --------------------------------------
-End-of-path arrival time       : 2.733
+End-of-path arrival time       : 4.092
 
 Constraint                     : 50.000
 + Capture Clock Path Delay     :  2.708
@@ -241,24 +216,24 @@ End-of-path required time      : 52.598
 Data Path
                                                name                                                  model name   delay (ns)  cumulative delay (ns) pins on net    location
 =============================================================================================================================================================================
-jtag_inst1_SEL                                                                                         inpad        0.000             0.000               0        (0,20)  
-jtag_inst1_SEL                                                                                         inpad        0.110             0.110               5        (0,20)  
-jtag_inst1_SEL                                                                                         net          0.665             0.775               5        (0,20)  
+jtag_inst1_SHIFT                                                                                       inpad        0.000             0.000               0        (0,23)  
+jtag_inst1_SHIFT                                                                                       inpad        0.110             0.110               4        (0,23)  
+jtag_inst1_SHIFT                                                                                       net          0.722             0.832               4        (0,23)  
    Routing elements:
-      Manhattan distance of X:3, Y:56
-LUT__21317|in[0]                                                                                       lut          0.055             0.830               5        (3,76)  
-LUT__21317|out                                                                                         lut          0.000             0.830               4        (3,76)  
-n14503                                                                                                 net          0.334             1.164               4        (3,76)  
+      Manhattan distance of X:4, Y:68
+LUT__25396|in[1]                                                                                       lut          0.054             0.886               4        (4,91)  
+LUT__25396|out                                                                                         lut          0.000             0.886               4        (4,91)  
+n18381                                                                                                 net          0.343             1.229               4        (4,91)  
    Routing elements:
-      Manhattan distance of X:5, Y:27
-LUT__21328|in[3]                                                                                       lut          0.054             1.218               4        (8,103) 
-LUT__21328|out                                                                                         lut          0.000             1.218              36        (8,103) 
-n14505                                                                                                 net          1.215             2.433              36        (8,103) 
+      Manhattan distance of X:9, Y:6
+LUT__25408|in[3]                                                                                       lut          0.054             1.283               4        (13,97) 
+LUT__25408|out                                                                                         lut          0.000             1.283              36        (13,97) 
+n18383                                                                                                 net          2.414             3.697              36        (13,97) 
    Routing elements:
-      Manhattan distance of X:35, Y:0
-LUT__21339|in[2]                                                                                       lut          0.054             2.487              36        (43,103)
-LUT__21339|out                                                                                         lut          0.000             2.487               2        (43,103)
-soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[4]~FF|D    ff           0.003             2.490               2        (43,103)
+      Manhattan distance of X:17, Y:4
+LUT__25418|in[2]                                                                                       lut          0.055             3.752              36        (30,101)
+LUT__25418|out                                                                                         lut          0.000             3.752               2        (30,101)
+soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[3]~FF|D    ff           0.003             3.755               2        (30,101)
 
 Capture Clock Path
                                                 name                                                   model name   delay (ns)  cumulative delay (ns) pins on net    location
@@ -267,8 +242,8 @@ jtag_inst1_TCK                                                                  
 jtag_inst1_TCK                                                                                           inpad        0.110             0.110              44        (0,22)  
 jtag_inst1_TCK                                                                                           net          2.598             2.708              44        (0,22)  
    Routing elements:
-      Manhattan distance of X:43, Y:81
-soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[4]~FF|CLK    ff           0.000             2.708              44        (43,103)
+      Manhattan distance of X:30, Y:79
+soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[3]~FF|CLK    ff           0.000             2.708              44        (30,101)
 
 ---------- Path Details for Max Critical Paths (end) ---------------
 
@@ -281,21 +256,21 @@ Path Detail Report (io_systemClk vs io_systemClk)
 
 ++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Path Begin    : soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_payload[6]~FF|CLK                    
-Path End      : soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_queueWithOccupancy/logic_ram|WDATA[7]
+Path Begin    : soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_payload[2]~FF|CLK                    
+Path End      : soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_queueWithOccupancy/logic_ram|WDATA[2]
 Launch Clock  : io_systemClk (RISE)                                                                                      
 Capture Clock : io_systemClk (RISE)                                                                                      
-Slack         : 0.026 (arrival time - required time)                                                                     
-Delay         : 0.135                                                                                                    
+Slack         : 0.028 (arrival time - required time)                                                                     
+Delay         : 0.137                                                                                                    
 
 Logic Level             : 0
 Non-global nets on path : 1
 Global nets on path     : 0
 
 Launch Clock Path Delay        : 1.207
-+ Clock To Q + Data Path Delay : 0.096
++ Clock To Q + Data Path Delay : 0.098
 --------------------------------------
-End-of-path arrival time       : 1.303
+End-of-path arrival time       : 1.305
 
 Constraint                     : 0.000
 + Capture Clock Path Delay     : 1.207
@@ -307,30 +282,30 @@ Launch Clock Path
                                         name                                           model name   delay (ns)  cumulative delay (ns) pins on net    location
 ===============================================================================================================================================================
 io_systemClk                                                                             inpad        0.000             0.000                0      (219,159)
-io_systemClk                                                                             inpad        0.070             0.070             3328      (219,159)
-io_systemClk                                                                             net          1.137             1.207             3328      (219,159)
+io_systemClk                                                                             inpad        0.070             0.070             3588      (219,159)
+io_systemClk                                                                             net          1.137             1.207             3588      (219,159)
    Routing elements:
-      Manhattan distance of X:202, Y:150
-soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_payload[6]~FF|CLK    ff           0.000             1.207             3328      (17,9)   
+      Manhattan distance of X:209, Y:155
+soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_payload[2]~FF|CLK    ff           0.000             1.207             3588      (10,4)   
 
 Data Path
                                                   name                                                     model name   delay (ns)  cumulative delay (ns) pins on net    location
 ===================================================================================================================================================================================
-soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_payload[6]~FF|Q                       ff               0.072            0.072              2          (17,9)
-soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_payload[6]                            net              0.135            0.207              2          (17,9)
+soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_payload[2]~FF|Q                       ff               0.072            0.072              2          (10,4)
+soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_payload[2]                            net              0.137            0.209              2          (10,4)
    Routing elements:
-      Manhattan distance of X:1, Y:7
-soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_queueWithOccupancy/logic_ram|WDATA[7] ram_8192x20     -0.111            0.096              2          (18,2)
+      Manhattan distance of X:1, Y:2
+soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_queueWithOccupancy/logic_ram|WDATA[2] ram_8192x20     -0.111            0.098              2          (9,2) 
 
 Capture Clock Path
                                                 name                                                   model name   delay (ns)  cumulative delay (ns) pins on net    location
 ===============================================================================================================================================================================
 io_systemClk                                                                                          inpad           0.000             0.000                0      (219,159)
-io_systemClk                                                                                          inpad           0.070             0.070             3328      (219,159)
-io_systemClk                                                                                          net             1.137             1.207             3328      (219,159)
+io_systemClk                                                                                          inpad           0.070             0.070             3588      (219,159)
+io_systemClk                                                                                          net             1.137             1.207             3588      (219,159)
    Routing elements:
-      Manhattan distance of X:201, Y:157
-soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_queueWithOccupancy/logic_ram|WCLK ram_8192x20     0.000             1.207             3328      (18,2)   
+      Manhattan distance of X:210, Y:157
+soc_inst/u_EfxSapphireSoc/system_uart_0_io_logic/uartCtrl_1_io_read_queueWithOccupancy/logic_ram|WCLK ram_8192x20     0.000             1.207             3588      (9,2)    
 
 ################################################################################
 Path Detail Report (jtag_inst1_TCK vs jtag_inst1_TCK)
@@ -339,21 +314,21 @@ Path Detail Report (jtag_inst1_TCK vs jtag_inst1_TCK)
 
 ++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Path Begin    : soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[27]~FF|CLK
-Path End      : soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[26]~FF|D  
-Launch Clock  : jtag_inst1_TCK (RISE)                                                                                 
-Capture Clock : jtag_inst1_TCK (RISE)                                                                                 
-Slack         : 0.097 (arrival time - required time)                                                                  
-Delay         : 0.095                                                                                                 
+Path Begin    : soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[8]~FF|CLK
+Path End      : soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[7]~FF|D  
+Launch Clock  : jtag_inst1_TCK (RISE)                                                                                
+Capture Clock : jtag_inst1_TCK (RISE)                                                                                
+Slack         : 0.099 (arrival time - required time)                                                                 
+Delay         : 0.097                                                                                                
 
 Logic Level             : 1
 Non-global nets on path : 1
 Global nets on path     : 0
 
 Launch Clock Path Delay        : 1.757
-+ Clock To Q + Data Path Delay : 0.167
++ Clock To Q + Data Path Delay : 0.169
 --------------------------------------
-End-of-path arrival time       : 1.924
+End-of-path arrival time       : 1.926
 
 Constraint                     : 0.000
 + Capture Clock Path Delay     : 1.757
@@ -362,35 +337,35 @@ Constraint                     : 0.000
 End-of-path required time      : 1.827
 
 Launch Clock Path
-                                                 name                                                   model name   delay (ns)  cumulative delay (ns) pins on net    location
-================================================================================================================================================================================
-jtag_inst1_TCK                                                                                            inpad        0.000             0.000               0        (0,22)  
-jtag_inst1_TCK                                                                                            inpad        0.070             0.070              44        (0,22)  
-jtag_inst1_TCK                                                                                            net          1.687             1.757              44        (0,22)  
+                                                name                                                   model name   delay (ns)  cumulative delay (ns) pins on net    location
+===============================================================================================================================================================================
+jtag_inst1_TCK                                                                                           inpad        0.000             0.000               0        (0,22)  
+jtag_inst1_TCK                                                                                           inpad        0.070             0.070              44        (0,22)  
+jtag_inst1_TCK                                                                                           net          1.687             1.757              44        (0,22)  
    Routing elements:
-      Manhattan distance of X:43, Y:139
-soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[27]~FF|CLK    ff           0.000             1.757              44        (43,161)
+      Manhattan distance of X:52, Y:89
+soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[8]~FF|CLK    ff           0.000             1.757              44        (52,111)
 
 Data Path
-                                                name                                                  model name   delay (ns)  cumulative delay (ns) pins on net    location
-==============================================================================================================================================================================
-soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[27]~FF|Q     ff          0.072             0.072              2         (43,161)
-soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[27]          net         0.061             0.133              2         (43,161)
+                                               name                                                  model name   delay (ns)  cumulative delay (ns) pins on net    location
+=============================================================================================================================================================================
+soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[8]~FF|Q     ff          0.072             0.072              2         (52,111)
+soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[8]          net         0.063             0.135              2         (52,111)
    Routing elements:
-      Manhattan distance of X:0, Y:2
-LUT__21361|in[0]                                                                                         lut         0.034             0.167              2         (43,159)
-LUT__21361|out                                                                                           lut         0.000             0.167              2         (43,159)
-soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[26]~FF|D     ff          0.000             0.167              2         (43,159)
+      Manhattan distance of X:0, Y:4
+LUT__25422|in[0]                                                                                        lut         0.034             0.169              2         (52,115)
+LUT__25422|out                                                                                          lut         0.000             0.169              2         (52,115)
+soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[7]~FF|D     ff          0.000             0.169              2         (52,115)
 
 Capture Clock Path
-                                                 name                                                   model name   delay (ns)  cumulative delay (ns) pins on net    location
-================================================================================================================================================================================
-jtag_inst1_TCK                                                                                            inpad        0.000             0.000               0        (0,22)  
-jtag_inst1_TCK                                                                                            inpad        0.070             0.070              44        (0,22)  
-jtag_inst1_TCK                                                                                            net          1.687             1.757              44        (0,22)  
+                                                name                                                   model name   delay (ns)  cumulative delay (ns) pins on net    location
+===============================================================================================================================================================================
+jtag_inst1_TCK                                                                                           inpad        0.000             0.000               0        (0,22)  
+jtag_inst1_TCK                                                                                           inpad        0.070             0.070              44        (0,22)  
+jtag_inst1_TCK                                                                                           net          1.687             1.757              44        (0,22)  
    Routing elements:
-      Manhattan distance of X:43, Y:137
-soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[26]~FF|CLK    ff           0.000             1.757              44        (43,159)
+      Manhattan distance of X:52, Y:93
+soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_readArea_full_shifter[7]~FF|CLK    ff           0.000             1.757              44        (52,115)
 
 ################################################################################
 Path Detail Report (jtag_inst1_TCK vs jtag_inst1_TCK)
@@ -399,22 +374,22 @@ Path Detail Report (jtag_inst1_TCK vs jtag_inst1_TCK)
 
 ++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Path Begin    : jtag_inst1_SHIFT                                                                             
-Path End      : soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_counter[0]~FF|D
-Launch Clock  : jtag_inst1_TCK (FALL)                                                                        
-Capture Clock : jtag_inst1_TCK (RISE)                                                                        
-Slack         : 48.873 (arrival time - required time)                                                        
-Delay         : 0.476                                                                                        
+Path Begin    : jtag_inst1_SHIFT                                                                       
+Path End      : soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_done~FF|D
+Launch Clock  : jtag_inst1_TCK (FALL)                                                                  
+Capture Clock : jtag_inst1_TCK (RISE)                                                                  
+Slack         : 48.854 (arrival time - required time)                                                  
+Delay         : 0.457                                                                                  
 
 Logic Level             : 1
 Non-global nets on path : 1
 Global nets on path     : 0
 
 Launch Clock Path Delay        : 0.000
-+ Clock To Q + Data Path Delay : 0.476
++ Clock To Q + Data Path Delay : 0.457
 + Input Delay                  : 0.224
 --------------------------------------
-End-of-path arrival time       : 0.700
+End-of-path arrival time       : 0.681
 
 Constraint                     : -50.000
 + Capture Clock Path Delay     :   1.757
@@ -423,26 +398,26 @@ Constraint                     : -50.000
 End-of-path required time      : -48.173
 
 Data Path
-                                            name                                               model name   delay (ns)  cumulative delay (ns) pins on net    location
-=======================================================================================================================================================================
-jtag_inst1_SHIFT                                                                                 inpad        0.000             0.000              0         (0,23) 
-jtag_inst1_SHIFT                                                                                 inpad        0.070             0.070              4         (0,23) 
-jtag_inst1_SHIFT                                                                                 net          0.372             0.442              4         (0,23) 
+                                         name                                            model name   delay (ns)  cumulative delay (ns) pins on net    location
+=================================================================================================================================================================
+jtag_inst1_SHIFT                                                                           inpad        0.000             0.000              0         (0,23) 
+jtag_inst1_SHIFT                                                                           inpad        0.070             0.070              4         (0,23) 
+jtag_inst1_SHIFT                                                                           net          0.353             0.423              4         (0,23) 
    Routing elements:
-      Manhattan distance of X:14, Y:49
-LUT__21326|in[2]                                                                                 lut          0.034             0.476              4         (14,72)
-LUT__21326|out                                                                                   lut          0.000             0.476              2         (14,72)
-soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_counter[0]~FF|D    ff           0.000             0.476              2         (14,72)
+      Manhattan distance of X:13, Y:65
+LUT__25402|in[1]                                                                           lut          0.034             0.457              4         (13,88)
+LUT__25402|out                                                                             lut          0.000             0.457              4         (13,88)
+soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_done~FF|D    ff           0.000             0.457              4         (13,88)
 
 Capture Clock Path
-                                             name                                                model name   delay (ns)  cumulative delay (ns) pins on net    location
-=========================================================================================================================================================================
-jtag_inst1_TCK                                                                                     inpad        0.000             0.000               0        (0,22) 
-jtag_inst1_TCK                                                                                     inpad        0.070             0.070              44        (0,22) 
-jtag_inst1_TCK                                                                                     net          1.687             1.757              44        (0,22) 
+                                          name                                             model name   delay (ns)  cumulative delay (ns) pins on net    location
+===================================================================================================================================================================
+jtag_inst1_TCK                                                                               inpad        0.000             0.000               0        (0,22) 
+jtag_inst1_TCK                                                                               inpad        0.070             0.070              44        (0,22) 
+jtag_inst1_TCK                                                                               net          1.687             1.757              44        (0,22) 
    Routing elements:
-      Manhattan distance of X:14, Y:50
-soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_counter[0]~FF|CLK    ff           0.000             1.757              44        (14,72)
+      Manhattan distance of X:13, Y:66
+soc_inst/u_EfxSapphireSoc/system_hardJtag_debug_logic_jtagBridge/jtag_wrapper_done~FF|CLK    ff           0.000             1.757              44        (13,88)
 
 ---------- Path Details for Min Critical Paths (end) ---------------
 
